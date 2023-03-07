@@ -109,9 +109,9 @@ export default function Header() {
                     <li>
                       <Link
                         className={`dropdown-item ${
-                          router.pathname === "/dao-development" ? "active" : ""
+                          router.pathname === "/text-analytics" ? "active" : ""
                         }`}
-                        href="/dao-development"
+                        href="/text-analytics"
                       >
                         {t("HEADERS.Services_Link_text_DAO_development")}
                       </Link>

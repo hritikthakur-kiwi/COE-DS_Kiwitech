@@ -92,9 +92,9 @@ function CryptoCurrencyDevelopment(props) {
         {/* <h3 className="section-sub-heading text-white">{t("CRYPTO_CURRENCY_DEV.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
-            autoPlay={false}
+            autoPlay={true}
             swipeable={true}
-            draggable={true}
+            draggable={false}
             arrows={true}
             responsive={responsive}
             ssr={true}
