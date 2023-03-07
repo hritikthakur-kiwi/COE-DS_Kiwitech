@@ -1,5 +1,4 @@
 import {
-  defiSolutions,
   iconGame,
   iconLinkdin,
   iconTelegram,
@@ -48,16 +47,16 @@ function CryptoCurrencyDevelopment(props) {
             <Col md={12}>
               <div className="text-center">
                 <h3 className="gradient-heading">
-                  {t("CRYPTO_CURRENCY_DEV.head_section_title")}
+                  {t("DEFI_SERVICES.head_section_title")}
                 </h3>
                 <h5 className="section-sub-heading text-white">
-                  {t("CRYPTO_CURRENCY_DEV.head_section_subhead")}
+                  {t("DEFI_SERVICES.head_section_subhead")}
                 </h5>
                 <p className="nft-banner-para">
-                  {t("CRYPTO_CURRENCY_DEV.head_section_para")}
+                  {t("DEFI_SERVICES.head_section_para")}
                 </p>
                 <p className="small-text">
-                  {t("CRYPTO_CURRENCY_DEV.join_our_community")}
+                  {t("DEFI_SERVICES.join_our_community")}
                 </p>
                 <div className="social-link">
                   <a
@@ -90,7 +89,7 @@ function CryptoCurrencyDevelopment(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("CRYPTO_CURRENCY_DEV.head_section_title")}</h3> */}
+        {/* <h3 className="section-sub-heading text-white">{t("DEFI_SERVICES.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
             autoPlay={false}
@@ -112,7 +111,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_1")}
+                    {t("DEFI_SERVICES.carousel_section_text_1")}
                   </p>
                 </div>
               </div>
@@ -124,7 +123,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_2")}
+                    {t("DEFI_SERVICES.carousel_section_text_2")}
                   </p>
                 </div>
               </div>
@@ -136,7 +135,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_3")}
+                    {t("DEFI_SERVICES.carousel_section_text_3")}
                   </p>
                 </div>
               </div>
@@ -148,7 +147,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_4")}
+                    {t("DEFI_SERVICES.carousel_section_text_4")}
                   </p>
                 </div>
               </div>
@@ -160,7 +159,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_5")}
+                    {t("DEFI_SERVICES.carousel_section_text_5")}
                   </p>
                 </div>
               </div>
@@ -172,7 +171,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_6")}
+                    {t("DEFI_SERVICES.carousel_section_text_6")}
                   </p>
                 </div>
               </div>
@@ -184,7 +183,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_7")}
+                    {t("DEFI_SERVICES.carousel_section_text_7")}
                   </p>
                 </div>
               </div>
@@ -196,7 +195,7 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_text_8")}
+                    {t("DEFI_SERVICES.carousel_section_text_8")}
                   </p>
                 </div>
               </div>
@@ -212,61 +211,41 @@ function CryptoCurrencyDevelopment(props) {
             <Col md={12}>
               <div className="network-top-head">
                 <h3 className="section-heading extra-small-gradient">
-                  {t("CRYPTO_CURRENCY_DEV.nft_standards_sec_head")}
+                  {t("DEFI_SERVICES.nft_standards_sec_head")}
                 </h3>
                 <h5 className="banner-para">
-                  {t("CRYPTO_CURRENCY_DEV.nft_standards_sec_sub_head")}
+                  {t("DEFI_SERVICES.nft_standards_sec_sub_head")}
                 </h5>
               </div>
               <div className="standard-content-main">
                 <div className="standard-item std-item1">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_1")}
+                    {t("DEFI_SERVICES.nft_standard_text_1")}
                   </p>
                 </div>
                 <div className="standard-item std-item2">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_2")}
+                    {t("DEFI_SERVICES.nft_standard_text_2")}
                   </p>
                 </div>
                 <div className="standard-item std-item3">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_3")}
+                    {t("DEFI_SERVICES.nft_standard_text_3")}
                   </p>
                 </div>
                 <div className="standard-item std-item4">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_4")}
+                    {t("DEFI_SERVICES.nft_standard_text_4")}
                   </p>
                 </div>
                 <div className="standard-item std-item1">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_5")}
+                    {t("DEFI_SERVICES.nft_standard_text_5")}
                   </p>
                 </div>
                 <div className="standard-item std-item2">
                   <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_6")}
-                  </p>
-                </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_7")}
-                  </p>
-                </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_8")}
-                  </p>
-                </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_9")}
-                  </p>
-                </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_10")}
+                    {t("DEFI_SERVICES.nft_standard_text_6")}
                   </p>
                 </div>
               </div>
@@ -284,8 +263,49 @@ function CryptoCurrencyDevelopment(props) {
               <div className="sol-top-head">
                 <h3>
                   Real World Problem - Solution example{" "}
+                  <span className="gradient-heading">Compare Performances</span>
+                </h3>
+              </div>
+              <div className="solution-img">
+                <Image
+                  src={predictiveImg}
+                  alt="solution"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className="sol-para-main">
+                <h3 className="sol-top-para-head"> The Problem </h3>
+                <p className="sol-top-para">
+                  A retail chain has multiple locations and is struggling to
+                  understand the sales performance of each store. They have
+                  sales data from each location but it is difficult to compare
+                  the performance of each store and identify trends or patterns.
+                </p>
+              </div>
+              <div className="sol-para-main">
+                <h3 className="sol-top-para-head">The Solution </h3>
+                <p className="sol-top-para">
+                  By using data visualization, the retail chain can create a
+                  dashboard that provides a clear view of the sales performance
+                  of each store. This can be done by creating visualizations
+                  such as bar charts or heat maps that compare the sales data
+                  across different locations. The data can also be broken down
+                  by product category or time period to identify trends and
+                  patterns. This information can be used to optimize sales
+                  strategies, improve inventory management, and increase
+                  revenue.
+                </p>
+              </div>
+            </Col>
+
+            <Col md={6}>
+              <div className="sol-top-head">
+                <h3>
+                  Real World Problem - Solution example{" "}
                   <span className="gradient-heading">
-                    Personalized Recommendations
+                    Analyze Patient Outcomes
                   </span>
                 </h3>
               </div>
@@ -301,59 +321,24 @@ function CryptoCurrencyDevelopment(props) {
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
-                  The issue of product discovery and personalized
-                  recommendations in e-commerce.
-                </p>
-              </div>
-              <div className="sol-para-main">
-                <h3 className="sol-top-para-head">The Solution </h3>
-                <p className="sol-top-para">
-                  With the vast amount of products available online, customers
-                  can become overwhelmed and have difficulty finding products
-                  that align with their preferences and needs. A recommendation
-                  system can help to solve this problem by analyzing customer
-                  data and making personalized recommendations based on their
-                  browsing and purchase history, as well as other factors such
-                  as product popularity and customer reviews.
-                </p>
-              </div>
-            </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Fraud Detection</span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={predictiveImg}
-                  alt="solution"
-                  className="img-fluid"
-                />
-              </div>
-            </Col>
-            <Col md={6}>
-              <div className="sol-para-main">
-                <h3 className="sol-top-para-head"> The Problem </h3>
-                <p className="sol-top-para">
-                  The challenge of content discovery and personalization in the
-                  entertainment industry.
+                  A healthcare organization is struggling to understand patient
+                  outcomes and identify areas for improvement. They have a large
+                  amount of patient data but it is difficult to analyze and
+                  identify trends or patterns.
                 </p>
               </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Solution </h3>
 
                 <p className="sol-top-para">
-                  With the vast amount of movies, TV shows, music, and other
-                  forms of content available online, users can have difficulty
-                  finding content that aligns with their preferences and
-                  interests. A recommendation system can help to solve this
-                  problem by analyzing user data and making personalized
-                  recommendations based on their viewing or listening history,
-                  as well as other factors such as genre preferences and
-                  ratings.
+                  By using data visualization, the healthcare organization can
+                  create a dashboard that provides a clear view of patient
+                  outcomes across different demographics, medical conditions,
+                  and treatments. This can be done by creating visualizations
+                  such as scatter plots or heat maps that compare patient data
+                  across different categories. The data can also be broken down
+                  by time period or geographical location to identify trends and
+                  patterns.
                 </p>
               </div>
             </Col>
@@ -371,36 +356,36 @@ function CryptoCurrencyDevelopment(props) {
             <Col md={12}>
               <div className="network-top-head">
                 <h3 className="section-heading extra-small-gradient">
-                  {t("CRYPTO_CURRENCY_DEV.FAQ_head")}
+                  {t("DEFI_SERVICES.FAQ_head")}
                 </h3>
                 <h5 className="banner-para">
-                  {t("CRYPTO_CURRENCY_DEV.FAQ_sub_head")}
+                  {t("DEFI_SERVICES.FAQ_sub_head")}
                 </h5>
               </div>
               <div className="faq-contents-wraper">
                 <Accordion defaultActiveKey="0">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
-                      {t("CRYPTO_CURRENCY_DEV.faq_q_1")}
+                      {t("DEFI_SERVICES.faq_q_1")}
                     </Accordion.Header>
                     <Accordion.Body>
-                      {t("CRYPTO_CURRENCY_DEV.faq_a_1")}
+                      {t("DEFI_SERVICES.faq_a_1")}
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
-                      {t("CRYPTO_CURRENCY_DEV.faq_q_2")}
+                      {t("DEFI_SERVICES.faq_q_2")}
                     </Accordion.Header>
                     <Accordion.Body>
-                      {t("CRYPTO_CURRENCY_DEV.faq_a_2")}
+                      {t("DEFI_SERVICES.faq_a_2")}
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header>
-                      {t("CRYPTO_CURRENCY_DEV.faq_q_3")}
+                      {t("DEFI_SERVICES.faq_q_3")}
                     </Accordion.Header>
                     <Accordion.Body>
-                      {t("CRYPTO_CURRENCY_DEV.faq_a_3")}
+                      {t("DEFI_SERVICES.faq_a_3")}
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
@@ -415,4 +400,4 @@ function CryptoCurrencyDevelopment(props) {
   );
 }
 
-
+export default CryptoCurrencyDevelopment;

@@ -2,9 +2,9 @@ import { logoCoe } from "@/assets/images/images";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { useTranslation } from "react-i18next";
 import { useRouter } from "next/router";
+import { useTranslation } from "react-i18next";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -99,9 +99,9 @@ export default function Header() {
                     <li>
                       <Link
                         className={`dropdown-item ${
-                          router.pathname === "/defi-solutions" ? "active" : ""
+                          router.pathname === "/data-visualization" ? "active" : ""
                         }`}
-                        href="/defi-solutions"
+                        href="/data-visualization"
                       >
                         {t("HEADERS.Services_Link_text_DeFi_solutions")}
                       </Link>

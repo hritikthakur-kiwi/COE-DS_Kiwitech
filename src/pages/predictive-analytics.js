@@ -3,7 +3,7 @@ import {
   iconLinkdin,
   iconTelegram,
   iconTwitter,
-  predictiveImg,
+  predictiveImg
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -13,9 +13,9 @@ import { useTranslation } from "react-i18next";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import Standard from "@/components/Common/standard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Standard from "@/components/Common/standard";
 
 const responsive = {
   superLargeDesktop: {
@@ -188,6 +188,12 @@ function NFTDevelopment(props) {
         </div>
       </div>
 
+      
+      {/* ---- we facilate ----- */}
+      <Standard />
+      {/* -----  // End of we facilate ----- */}
+
+      {/* -----  // start problem ----- */}
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
@@ -263,9 +269,6 @@ function NFTDevelopment(props) {
         </div>
       </section>
             {/* ---- // End of networks ----- */}
-      {/* ---- Start Standards ----- */}
-      <Standard />
-      {/* -----  // End of standards ----- */}
       {/* Start FAQ  */}
       <section className="faqs-main">
         <div className="container">
