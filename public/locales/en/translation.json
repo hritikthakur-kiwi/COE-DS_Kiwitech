@@ -129,7 +129,7 @@
         "FAQ_head":"FAQs",
         "FAQ_sub_head":"Frequently asked questions",
         "faq_q_1": "What is Predictive Analytics, and how does it differ from other types of analytics?",
-        "faq_a_1":"Predictive analytics is a branch of advanced analytics that uses statistical modeling, machine learning, and artificial intelligence algorithms to analyze historical data and predict future outcomes with a high degree of accuracy.",
+        "faq_a_1":"Predictive analytics is a branch of advanced analytics that uses statistical modeling, machine learning, and artificial intelligence algorithms to analyze historical data and predict future outcomes with a high degree of accuracy Predictive analytics differs from descriptive and diagnostic analytics as it uses past data to predict future events, trends, and behaviors, allowing organizations to optimize their operations, enhance customer experience, and drive business growth proactively.",
         "faq_q_2": "What are some challenges associated with implementing Predictive Analytics, and   how can they be overcome?",
         "faq_a_2":"Challenges of implementing predictive analytics include data quality issues, data security and privacy concerns, a shortage of skilled personnel, and the difficulty of integrating predictive models into existing systems.",
         "faq_q_3": "What is the cost associated with implementing predictive analytics in my business?",

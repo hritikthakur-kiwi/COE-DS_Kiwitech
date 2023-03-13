@@ -1,9 +1,9 @@
 import {
-  iconGame,
+  betterRiskManagement, competitveConfi,
+  enchanceCustomerExp, fraudDetection, iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter,
-  predictiveImg
+  iconTwitter, improveDM, increaseEffi, predictingChrun
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -112,7 +112,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={improveDM} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -127,7 +127,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={increaseEffi} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -142,7 +142,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={enchanceCustomerExp} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -157,7 +157,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={betterRiskManagement} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -172,7 +172,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={competitveConfi} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -207,7 +207,7 @@ function NFTDevelopment(props) {
                 </h3>
               </div>
               <div className="solution-img">
-                <Image src={predictiveImg} alt="solution" className="img-fluid" />
+                <Image src={predictingChrun} alt="solution" className="img-fluid" />
               </div>
             </Col>
             <Col md={6}>
@@ -240,12 +240,12 @@ function NFTDevelopment(props) {
                 </h3>
               </div>
               <div className="solution-img">
-                <Image src={predictiveImg} alt="solution" className="img-fluid" />
+                <Image src={fraudDetection} alt="solution" className="img-fluid" />
               </div>
             </Col>
             <Col md={6}>
               <div className="sol-para-main">
-                <h3 className="sol-top-para-head"> Problem </h3>
+                <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
                   Predict fraud detection in financial transactions. Fraudulent
                   activities can result in significant financial losses for both
@@ -253,7 +253,7 @@ function NFTDevelopment(props) {
                 </p>
               </div>
               <div className="sol-para-main">
-                <h3 className="sol-top-para-head"> Solution </h3>
+                <h3 className="sol-top-para-head"> The Solution </h3>
             
                 <p className="sol-top-para">
                   Predictive analytics can be used to analyze historical
