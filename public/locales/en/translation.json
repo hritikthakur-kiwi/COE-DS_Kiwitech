@@ -58,11 +58,12 @@
             "heading": "What We Do",
             "description_tag_line":"Decoding your innovative ideas and coding them to make them future-ready",
             "description": "We facilitate a range of services to help businesses harness the power of data and gain valuable insights to drive growth and innovation.We offer expertise in machine learning, statistical modeling, and data analytics to deliver tailored solutions that meet your specific needs with ensuring maximum efficiency without compromising on security.",
-            "listing_head":"Data analysis and visualization",
+            "listing_head":"Our Definitive services include:",
             "listing_item_1": "Predictive modeling and forecasting",
             "listing_item_2": "Machine learning and deep learning analysis",
             "listing_item_3": "Natural language processing and text analysis",
-            "listing_item_4": "Data analytics"
+            "listing_item_4": "Data analytics",
+            "listing_item_5":"Data analysis and visualization"
         },
         "testimonial": {
             "heading": "Client Testimonials",

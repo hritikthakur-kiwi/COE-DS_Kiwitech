@@ -171,12 +171,13 @@ body {
   padding-top: 27px;
 }
 .banner-slider-main {
-  height: 100%;
+  height: 120%;
   min-height: 470px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   text-align: center;
+  background-size: 550%;
 }
 .banner-slider-main .slider-img {
   width: 400px;

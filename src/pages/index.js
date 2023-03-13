@@ -162,10 +162,10 @@ export default function Home() {
               <div className="what-we-left">
                 <div className="what-we-img-area">
                   <div className="what-we-img-left">
-                    <Image src={nftDev} alt="NFT Development" />
+                    <Image src={nftDev} alt="Predictive modeling and forecasting"/>
                     <Image
                       src={criptoCurrency}
-                      alt="Crypto Currency Development"
+                      alt="machine learning and deep learning analysis"
                     />
                   </div>
                   <div className="what-we-img-right">
