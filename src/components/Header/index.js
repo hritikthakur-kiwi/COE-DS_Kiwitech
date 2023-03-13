@@ -119,13 +119,23 @@ export default function Header() {
                     <li>
                       <Link
                         className={`dropdown-item ${
-                          router.pathname === "/enterprise-solutions"
+                          router.pathname === "/image-video-analytics"
                             ? "active"
                             : ""
                         }`}
-                        href="/enterprise-solutions"
+                        href="/image-video-analytics"
                       >
                         {t("HEADERS.Services_Link_text_Enterprise_solutions")}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        className={`dropdown-item ${
+                          router.pathname === "/chatgpt-chatbot" ? "active" : ""
+                        }`}
+                        href="/chatgpt_chatbot"
+                      >
+                        {t("HEADERS.Services_Link_text_chatgpt_chatbot")}
                       </Link>
                     </li>
                   </ul>
