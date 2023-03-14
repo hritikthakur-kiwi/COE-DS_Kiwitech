@@ -27,6 +27,25 @@ import {
   AnySwap,
   Hop,
   HyperledgerFabric,
+  frameworks,
+  sawtooth,
+  explorer,
+  loadify,
+  teacherly,
+  hyperledger,
+  hyperledgerComposer,
+  iroha,
+  admitad,
+  Kuprik,
+  lendsmart,
+  megaun,
+  guardrailsBlack,
+  topica,
+  terbine,
+  internews,
+  nambataxi,
+  veeqo,
+  mythril,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -43,87 +62,63 @@ function TechStacks() {
           {/* {t("Tech_Stack_component_SUB_TITLE")} */}
         </h5>
         <div className="logo-section">
-        <div className="logo-container">
-            <Image src={etherscan} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-          <Image src={polygonLogo} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-          <Image src={palm} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-            <Image src={stellarLogo} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-            <Image src={algorand} alt="Company Logo" />
+          <div className="logo-container">
+            <Image src={frameworks} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={xrpLedger} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-            <Image src={vechainLogo} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-            <Image src={R3Corda} alt="Company Logo" />
-        </div>
-        <div className="logo-container">
-            <Image src={HyperledgerFabric} alt="Company Logo" />
+            <Image src={sawtooth} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={HyperledgerIndyLogo} alt="Company Logo" />
+            <Image src={explorer} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={HyperLedgerIIndy} alt="Company Logo" />
-        </div>
+            <Image src={loadify} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={teacherly} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={hyperledger} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={hyperledgerComposer} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={iroha} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={admitad} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={Kuprik} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={lendsmart} alt="Company Logo" />
+          </div>
 
           <div className="logo-container">
-            <Image src={trustWallet} alt="Company Logo" />
+            <Image src={megaun} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={CoinbaseLogo} alt="Company Logo" />
+            <Image src={guardrailsBlack} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={walletConnect} alt="Company Logo" />
+            <Image src={topica} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={metamask} alt="Company Logo" />
+            <Image src={terbine} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={moonPay} alt="Company Logo" />
+            <Image src={internews} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={wyre} alt="Company Logo" />
+            <Image src={nambataxi} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={AnySwap} alt="Company Logo" />
+            <Image src={veeqo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={UniswapLogoandWordmark} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={pancakeSwap} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={OpenSea} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={rarible} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={fileCoin} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={ipfs} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={infura} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={synapse} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={Hop} alt="Company Logo" />
+            <Image src={mythril} alt="Company Logo" />
           </div>
         </div>
       </div>

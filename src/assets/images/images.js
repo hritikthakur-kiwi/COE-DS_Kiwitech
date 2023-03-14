@@ -14,7 +14,12 @@ import gameMusic from "../images/game-music.svg";
 import iconGame from "../images/game.svg";
 import graph from "../images/graph.svg";
 import immutableAttr from "../images/immutable-attr.svg";
-import { default as bannerSliderImg1, default as bannerSliderImg2, default as bannerSliderImg3, default as bannerSliderImg4 } from "../images/J4o.gif";
+import {
+  default as bannerSliderImg1,
+  default as bannerSliderImg2,
+  default as bannerSliderImg3,
+  default as bannerSliderImg4,
+} from "../images/J4o.gif";
 import lendingPlatform from "../images/lending-platform.svg";
 import iconLinkdin from "../images/linkdin.svg";
 import logoCoe from "../images/Logo.svg";
@@ -174,14 +179,67 @@ import exchange from "../images/exchange.svg";
 import staking from "../images/stake.svg";
 
 import betterRiskManagement from "../images/better risk management.jpg";
-import competitveConfi from "../images/compititve.jpg"
+import competitveConfi from "../images/compititve.jpg";
 import enchanceCustomerExp from "../images/enhance customer experience.png";
 import fraudDetection from "../images/fraud detection 3.jpg";
 import improveDM from "../images/improve decision making 1.png";
 import increaseEffi from "../images/increased efficiency.jpg";
 import predictingChrun from "../images/predicting-customer-churn.jpg";
 
+// for data science
+
+import whatWeImg1 from "../images/what-we-img1.svg";
+import whatWeImg2 from "../images/what-we-img2.svg";
+import whatWeImg3 from "../images/what-we-img3.svg";
+import whatWeImg4 from "../images/what-we-img4.svg";
+import whatWeImg5 from "../images/what-we-img5.svg";
+
+// Techstack logos
+import frameworks from "../images/frameworks.svg";
+import sawtooth from "../images/sawtooth.svg";
+import explorer from "../images/explorer.svg";
+import loadify from "../images/loadify.svg";
+import teacherly from "../images/teacherly.svg";
+import hyperledger from "../images/hyperledger.svg";
+import hyperledgerComposer from "../images/hyperledgerComposer.svg";
+import iroha from "../images/iroha.svg";
+import admitad from "../images/admitad.svg";
+import Kuprik from "../images/Kuprik.svg";
+import lendsmart from "../images/lendsmart.svg";
+import megaun from "../images/megaun.svg";
+import guardrailsBlack from "../images/guardrails-black.svg";
+import topica from "../images/topica.svg";
+import terbine from "../images/terbine.svg";
+import internews from "../images/internews.svg";
+import nambataxi from "../images/nambataxi.svg";
+import veeqo from "../images/veeqo.svg";
+import mythril from "../images/mythril.svg";
+
 export {
+  whatWeImg1,
+  whatWeImg2,
+  whatWeImg3,
+  whatWeImg4,
+  whatWeImg5,
+  frameworks,
+  sawtooth,
+  explorer,
+  loadify,
+  teacherly,
+  hyperledger,
+  hyperledgerComposer,
+  iroha,
+  admitad,
+  Kuprik,
+  lendsmart,
+  megaun,
+  guardrailsBlack,
+  topica,
+  terbine,
+  internews,
+  nambataxi,
+  veeqo,
+  mythril,
   staking,
   dividen,
   exchange,

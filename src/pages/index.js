@@ -6,15 +6,15 @@ import QuickProjectStart from "../components/Common/quickProjectStart";
 import AboutForm from "../components/Common/aboutForm";
 import { Inter } from "@next/font/google";
 import {
-  nftDev,
-  criptoCurrency,
-  EnterpriseSolutions,
-  defiSolutions,
-  doaDevelopment,
   userPic,
   clientPic1,
   quote,
   Richard,
+  whatWeImg1,
+  whatWeImg2,
+  whatWeImg3,
+  whatWeImg4,
+  whatWeImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
@@ -162,19 +162,19 @@ export default function Home() {
               <div className="what-we-left">
                 <div className="what-we-img-area">
                   <div className="what-we-img-left">
-                    <Image src={nftDev} alt="Predictive modeling and forecasting"/>
                     <Image
-                      src={criptoCurrency}
+                      src={whatWeImg1}
+                      alt="Predictive modeling and forecasting"
+                    />
+                    <Image
+                      src={whatWeImg2}
                       alt="machine learning and deep learning analysis"
                     />
                   </div>
                   <div className="what-we-img-right">
-                    <Image
-                      src={EnterpriseSolutions}
-                      alt="Enterprise Solutions"
-                    />
-                    <Image src={defiSolutions} alt="DeFI Solutions " />
-                    <Image src={doaDevelopment} alt="DAO Development " />
+                    <Image src={whatWeImg3} alt="Enterprise Solutions" />
+                    <Image src={whatWeImg4} alt="DeFI Solutions " />
+                    <Image src={whatWeImg5} alt="DAO Development " />
                   </div>
                 </div>
               </div>
