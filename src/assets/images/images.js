@@ -215,7 +215,18 @@ import nambataxi from "../images/nambataxi.svg";
 import veeqo from "../images/veeqo.svg";
 import mythril from "../images/mythril.svg";
 
+import OurOfferingsImg1 from "../images/OurOfferingsImg1.svg";
+import OurOfferingsImg2 from "../images/OurOfferingsImg2.svg";
+import OurOfferingsImg3 from "../images/OurOfferingsImg3.svg";
+import OurOfferingsImg4 from "../images/OurOfferingsImg4.svg";
+import OurOfferingsImg5 from "../images/OurOfferingsImg5.svg";
+
 export {
+  OurOfferingsImg1,
+  OurOfferingsImg2,
+  OurOfferingsImg3,
+  OurOfferingsImg4,
+  OurOfferingsImg5,
   whatWeImg1,
   whatWeImg2,
   whatWeImg3,
