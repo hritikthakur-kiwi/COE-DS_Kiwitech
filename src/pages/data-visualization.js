@@ -110,6 +110,9 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_1")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_1")}
                   </p>
@@ -122,6 +125,9 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_2")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_2")}
                   </p>
@@ -134,6 +140,9 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_3")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_3")}
                   </p>
@@ -146,6 +155,9 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_4")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_4")}
                   </p>
@@ -158,6 +170,9 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_5")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_5")}
                   </p>
@@ -170,32 +185,11 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={predictiveImg} alt="user" />
                 </div>
                 <div className="nft-review">
+                <h4 className="nft-review-head">
+                    {t("DEFI_SERVICES.carousel_section_head_6")}
+                  </h4>
                   <p className="nft-text-para">
                     {t("DEFI_SERVICES.carousel_section_text_6")}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="nft-inner">
-              <div className="nft-inner-content">
-                <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
-                </div>
-                <div className="nft-review">
-                  <p className="nft-text-para">
-                    {t("DEFI_SERVICES.carousel_section_text_7")}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="nft-inner">
-              <div className="nft-inner-content">
-                <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
-                </div>
-                <div className="nft-review">
-                  <p className="nft-text-para">
-                    {t("DEFI_SERVICES.carousel_section_text_8")}
                   </p>
                 </div>
               </div>

@@ -37,12 +37,12 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/nft-development");
+            handleClick("/predictive-analytics");
           }}
           className={`services-card ${showNftDevelopment ? "" : "d-none"}`}
         >
           <div className="card-image">
-            <Image src={OurOfferingsImg1} alt="NFT Development" />
+            <Image src={OurOfferingsImg1} alt="Predictive Analytics" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
@@ -55,7 +55,7 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/crypto-currency-development");
+            handleClick("/recommendation-system");
           }}
           className={`services-card ${showCryptoDevelopment ? "" : "d-none"}`}
         >
@@ -73,7 +73,7 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/defi-solutions");
+            handleClick("/text-analytics");
           }}
           className={`services-card ${showDefiDevelopment ? "" : "d-none"}`}
         >
@@ -91,7 +91,7 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/dao-development");
+            handleClick("/chatgpt_chatbot");
           }}
           className={`services-card ${showDaoDevelopment ? "" : "d-none"}`}
         >
@@ -109,7 +109,7 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/enterprise-solutions");
+            handleClick("/image-video-analytics");
           }}
           className={`services-card ${
             showEnterpriceDevelopment ? "" : "d-none"
@@ -123,6 +123,26 @@ function ServicesWeProvide(props) {
               {t("HOMEPAGE.our_services_sections.service_5_head")}
             </h4>
             <p>{t("HOMEPAGE.our_services_sections.service_5_desc")}</p>
+          </div>
+        </div>
+        {/* end card */}
+                {/* card */}
+                <div
+          onClick={() => {
+            handleClick("/data-visualization");
+          }}
+          className={`services-card ${
+            showEnterpriceDevelopment ? "" : "d-none"
+          }`}
+        >
+          <div className="card-image">
+            <Image src={OurOfferingsImg5} alt="Enterprise solutions" />
+          </div>
+          <div className="card-content">
+            <h4 className="card-title">
+              {t("HOMEPAGE.our_services_sections.service_6_head")}
+            </h4>
+            <p>{t("HOMEPAGE.our_services_sections.service_6_desc")}</p>
           </div>
         </div>
         {/* end card */}

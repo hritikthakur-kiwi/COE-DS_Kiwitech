@@ -314,14 +314,6 @@ function NFTDevelopment(props) {
                       {t("ENTERPRICE_SOLUTIONS.faq_a_2")}
                     </Accordion.Body>
                   </Accordion.Item>
-                  <Accordion.Item eventKey="2">
-                    <Accordion.Header>
-                      {t("ENTERPRICE_SOLUTIONS.faq_q_3")}
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      {t("ENTERPRICE_SOLUTIONS.faq_a_3")}
-                    </Accordion.Body>
-                  </Accordion.Item>
                 </Accordion>
               </div>
             </Col>
