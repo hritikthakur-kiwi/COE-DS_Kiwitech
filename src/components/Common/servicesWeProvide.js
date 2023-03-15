@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  nftCard,
-  cryptoCard,
-  defiCard,
-  daoCard,
-  enterpriseCard,
+  OurOfferingsImg1,
+  OurOfferingsImg2,
+  OurOfferingsImg3,
+  OurOfferingsImg4,
+  OurOfferingsImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -20,7 +20,7 @@ function ServicesWeProvide(props) {
   } = props;
   const router = useRouter();
   function handleClick(route) {
-    console.log("router", router, "route", route );
+    console.log("router", router, "route", route);
     router.push(`${route}`);
   }
 
@@ -35,9 +35,14 @@ function ServicesWeProvide(props) {
           {t("HOMEPAGE.our_services_sections.SEC_SUB_heading")}
         </h5>
         {/* card */}
-        <div onClick={() => {handleClick("/nft-development")}} className={`services-card ${showNftDevelopment ? "" : "d-none"}`}>
+        <div
+          onClick={() => {
+            handleClick("/nft-development");
+          }}
+          className={`services-card ${showNftDevelopment ? "" : "d-none"}`}
+        >
           <div className="card-image">
-            <Image src={nftCard} alt="NFT Development" />
+            <Image src={OurOfferingsImg1} alt="NFT Development" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
@@ -49,11 +54,13 @@ function ServicesWeProvide(props) {
         {/* end card */}
         {/* card */}
         <div
-          onClick={() => {handleClick("/crypto-currency-development")}} 
+          onClick={() => {
+            handleClick("/crypto-currency-development");
+          }}
           className={`services-card ${showCryptoDevelopment ? "" : "d-none"}`}
         >
           <div className="card-image">
-            <Image src={cryptoCard} alt="Crypto Currency Development" />
+            <Image src={OurOfferingsImg2} alt="Crypto Currency Development" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
@@ -64,11 +71,14 @@ function ServicesWeProvide(props) {
         </div>
         {/* end card */}
         {/* card */}
-        <div 
-        onClick={() => {handleClick("/defi-solutions")}} 
-        className={`services-card ${showDefiDevelopment ? "" : "d-none"}`}>
+        <div
+          onClick={() => {
+            handleClick("/defi-solutions");
+          }}
+          className={`services-card ${showDefiDevelopment ? "" : "d-none"}`}
+        >
           <div className="card-image">
-            <Image src={defiCard} alt="DeFi solutions" />
+            <Image src={OurOfferingsImg3} alt="DeFi solutions" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
@@ -79,11 +89,14 @@ function ServicesWeProvide(props) {
         </div>
         {/* end card */}
         {/* card */}
-        <div 
-        onClick={() => {handleClick("/dao-development")}} 
-        className={`services-card ${showDaoDevelopment ? "" : "d-none"}`}>
+        <div
+          onClick={() => {
+            handleClick("/dao-development");
+          }}
+          className={`services-card ${showDaoDevelopment ? "" : "d-none"}`}
+        >
           <div className="card-image">
-            <Image src={daoCard} alt="DAO development" />
+            <Image src={OurOfferingsImg4} alt="DAO development" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
@@ -95,13 +108,15 @@ function ServicesWeProvide(props) {
         {/* end card */}
         {/* card */}
         <div
-        onClick={() => {handleClick("/enterprise-solutions")}} 
-        className={`services-card ${
-          showEnterpriceDevelopment ? "" : "d-none"
-        }`}
+          onClick={() => {
+            handleClick("/enterprise-solutions");
+          }}
+          className={`services-card ${
+            showEnterpriceDevelopment ? "" : "d-none"
+          }`}
         >
           <div className="card-image">
-            <Image src={enterpriseCard} alt="Enterprise solutions" />
+            <Image src={OurOfferingsImg5} alt="Enterprise solutions" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
