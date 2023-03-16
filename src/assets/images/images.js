@@ -147,6 +147,13 @@ import cryptoDevToken from "../images/crypto-dev-token.png";
 import cryptoDevWallet from "../images/crypto-dev-wallet.png";
 import defi from "../images/defi.svg";
 import tokenDevelopment from "../images/token-development.svg";
+import cosnumerBehavior from "../images/consumer behavior.jpg";
+import improveCust from "../images/improve customer experience.jpg";
+import increasedBussiness from "../images/increased bussiness.jpg";
+import personalisedRec from "../images/personalised recommendation.jpg";
+import reduCus from "../images/reduce-customer-acquisition-cost.jpg";
+import targetCust from "../images/target customers.jpg";
+
 
 // import paymentCoin from "../images/why-img1.png";
 import Equity from "../images/Equity.png";
@@ -422,4 +429,10 @@ export {
   competitveConfi,
   enchanceCustomerExp,
   betterRiskManagement,
+  cosnumerBehavior,
+  improveCust,
+  increasedBussiness,
+  personalisedRec,
+  reduCus,
+  targetCust
 };
