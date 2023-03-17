@@ -1,9 +1,10 @@
 import {
-  iconGame,
+  accurateDescision,
+  analyzePatient, easyInterpretion, iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter,
-  predictiveImg
+  iconTwitter, leveragingData, monitorKey,
+  optimizingBussiness, storeComparision, understandingConsumer
 } from "@/assets/images/images";
 import Footer from "@/components/Footer";
 import Image from "next/image";
@@ -107,7 +108,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={easyInterpretion} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -122,7 +123,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={accurateDescision} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -137,7 +138,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={optimizingBussiness} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -152,7 +153,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={monitorKey} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -167,7 +168,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={understandingConsumer} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -182,7 +183,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictiveImg} alt="user" />
+                  <Image src={leveragingData} alt="user" />
                 </div>
                 <div className="nft-review">
                 <h4 className="nft-review-head">
@@ -262,7 +263,7 @@ function CryptoCurrencyDevelopment(props) {
               </div>
               <div className="solution-img">
                 <Image
-                  src={predictiveImg}
+                  src={storeComparision}
                   alt="solution"
                   className="img-fluid"
                 />
@@ -305,7 +306,7 @@ function CryptoCurrencyDevelopment(props) {
               </div>
               <div className="solution-img">
                 <Image
-                  src={predictiveImg}
+                  src={analyzePatient}
                   alt="solution"
                   className="img-fluid"
                 />
