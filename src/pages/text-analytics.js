@@ -1,28 +1,9 @@
 import {
-  iconGame,
+  detectingFraud,
+  enhanceMarketing, fraudDetection, gainInsights, iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter,
-  predictiveImg,
-  reduCus,
-  targetCust,
-  accurateDescision,
-  analyzePatient,
-  contentRecommendation,
-  detectingFraud,
-  enhanceMarketing,
-  gainInsights,
-  IdentifyTrends,
-  leveragingData,
-  textAnalytics,
-  improveOperational,
-  storeComparision,
-  understandingConsumer,
-  easyInterpretion,
-  monitorKey,
-  optimizingBussiness,
-  sentimentAnalysis,
-  fraudDetection
+  iconTwitter, IdentifyTrends, improveOperational, sentimentAnalysis, textAnalytics
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -32,7 +13,6 @@ import { useTranslation } from "react-i18next";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-import Standard from "@/components/Common/standard";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
