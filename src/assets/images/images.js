@@ -18,7 +18,7 @@ import {
   default as bannerSliderImg1,
   default as bannerSliderImg2,
   default as bannerSliderImg3,
-  default as bannerSliderImg4,
+  default as bannerSliderImg4
 } from "../images/J4o.gif";
 import lendingPlatform from "../images/lending-platform.svg";
 import iconLinkdin from "../images/linkdin.svg";
@@ -137,6 +137,10 @@ import wyre from "../images/wyre.png";
 import xrpLedger from "../images/xrp-ledger.png";
 
 // cryptopage
+import accurateDescision from "../images/accurate decision making 1.jpg";
+import analyzePatient from "../images/analyze patient outcome.jpg";
+import cosnumerBehavior from "../images/consumer behavior.jpg";
+import contentRecommendation from "../images/content recommendation.png";
 import cryptoConsulting from "../images/crypto-consulting.svg";
 import cryptoDevAccess from "../images/crypto-dev-access.png";
 import cryptoDevBurnable from "../images/crypto-dev-burnable.png";
@@ -146,14 +150,26 @@ import cryptoDevSupport from "../images/crypto-dev-support.png";
 import cryptoDevToken from "../images/crypto-dev-token.png";
 import cryptoDevWallet from "../images/crypto-dev-wallet.png";
 import defi from "../images/defi.svg";
-import tokenDevelopment from "../images/token-development.svg";
-import cosnumerBehavior from "../images/consumer behavior.jpg";
+import detectingFraud from "../images/detecting fraud and risk.jpg";
+import enhanceMarketing from "../images/enhance marketing campaign.jpg";
+import fraudDetection from "../images/fraud detection 2.jpg";
+import gainInsights from "../images/gain insights into customer feedback.webp";
+import IdentifyTrends from "../images/identify trends and patterns.jpg";
 import improveCust from "../images/improve customer experience.jpg";
+import improveOperational from "../images/improve operational efficiency.jpg";
 import increasedBussiness from "../images/increased bussiness.jpg";
+import leveragingData from "../images/leveraging data driven.jpg";
 import personalisedRec from "../images/personalised recommendation.jpg";
 import reduCus from "../images/reduce-customer-acquisition-cost.jpg";
+import storeComparision from "../images/store comparision data visualization.jpg";
 import targetCust from "../images/target customers.jpg";
-
+import textAnalytics from "../images/text analytics.png";
+import tokenDevelopment from "../images/token-development.svg";
+import understandingConsumer from "../images/Understanding-Consumer-Behavior-patterns.jpg";
+import easyInterpretion from "../images/easy interpretation.jpg";
+import monitorKey from "../images/monitor KPI.png";
+import optimizingBussiness from "../images/optimising.png";
+import sentimentAnalysis from "../images/sentiment analysis 2.png";
 
 // import paymentCoin from "../images/why-img1.png";
 import Equity from "../images/Equity.png";
@@ -187,8 +203,6 @@ import staking from "../images/stake.svg";
 
 import betterRiskManagement from "../images/better risk management.jpg";
 import competitveConfi from "../images/compititve.jpg";
-import enchanceCustomerExp from "../images/enhance customer experience.png";
-import fraudDetection from "../images/fraud detection 3.jpg";
 import improveDM from "../images/improve decision making 1.png";
 import increaseEffi from "../images/increased efficiency.jpg";
 import predictingChrun from "../images/predicting-customer-churn.jpg";
@@ -202,25 +216,25 @@ import whatWeImg4 from "../images/what-we-img4.svg";
 import whatWeImg5 from "../images/what-we-img5.svg";
 
 // Techstack logos
-import frameworks from "../images/frameworks.svg";
-import sawtooth from "../images/sawtooth.svg";
+import admitad from "../images/admitad.svg";
 import explorer from "../images/explorer.svg";
-import loadify from "../images/loadify.svg";
-import teacherly from "../images/teacherly.svg";
+import frameworks from "../images/frameworks.svg";
+import guardrailsBlack from "../images/guardrails-black.svg";
 import hyperledger from "../images/hyperledger.svg";
 import hyperledgerComposer from "../images/hyperledgerComposer.svg";
+import internews from "../images/internews.svg";
 import iroha from "../images/iroha.svg";
-import admitad from "../images/admitad.svg";
 import Kuprik from "../images/Kuprik.svg";
 import lendsmart from "../images/lendsmart.svg";
+import loadify from "../images/loadify.svg";
 import megaun from "../images/megaun.svg";
-import guardrailsBlack from "../images/guardrails-black.svg";
-import topica from "../images/topica.svg";
-import terbine from "../images/terbine.svg";
-import internews from "../images/internews.svg";
-import nambataxi from "../images/nambataxi.svg";
-import veeqo from "../images/veeqo.svg";
 import mythril from "../images/mythril.svg";
+import nambataxi from "../images/nambataxi.svg";
+import sawtooth from "../images/sawtooth.svg";
+import teacherly from "../images/teacherly.svg";
+import terbine from "../images/terbine.svg";
+import topica from "../images/topica.svg";
+import veeqo from "../images/veeqo.svg";
 
 import OurOfferingsImg1 from "../images/OurOfferingsImg1.svg";
 import OurOfferingsImg2 from "../images/OurOfferingsImg2.svg";
@@ -425,14 +439,29 @@ export {
   improveDM,
   increaseEffi,
   predictingChrun,
-  fraudDetection,
   competitveConfi,
-  enchanceCustomerExp,
   betterRiskManagement,
   cosnumerBehavior,
   improveCust,
   increasedBussiness,
   personalisedRec,
   reduCus,
-  targetCust
+  targetCust,
+  accurateDescision,
+  analyzePatient,
+  contentRecommendation,
+  detectingFraud,
+  enhanceMarketing,
+  fraudDetection,
+  gainInsights,
+  IdentifyTrends,
+  leveragingData,
+  textAnalytics,
+  improveOperational,
+  storeComparision,
+  understandingConsumer,
+  easyInterpretion,
+  monitorKey,
+  optimizingBussiness,
+  sentimentAnalysis
 };
