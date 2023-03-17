@@ -163,7 +163,7 @@ import personalisedRec from "../images/personalised recommendation.jpg";
 import reduCus from "../images/reduce-customer-acquisition-cost.jpg";
 import storeComparision from "../images/store comparision data visualization.jpg";
 import targetCust from "../images/target customers.jpg";
-import textAnalytics from "../images/text analytics.png";
+import textAnalyticsImg from "../images/text analytics.png";
 import tokenDevelopment from "../images/token-development.svg";
 import understandingConsumer from "../images/Understanding-Consumer-Behavior-patterns.jpg";
 import easyInterpretion from "../images/easy interpretation.jpg";
@@ -456,7 +456,7 @@ export {
   gainInsights,
   IdentifyTrends,
   leveragingData,
-  textAnalytics,
+  textAnalyticsImg,
   improveOperational,
   storeComparision,
   understandingConsumer,
