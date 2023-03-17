@@ -170,6 +170,18 @@ import easyInterpretion from "../images/easy interpretation.jpg";
 import monitorKey from "../images/monitor KPI.png";
 import optimizingBussiness from "../images/optimising.png";
 import sentimentAnalysis from "../images/sentiment analysis 2.png";
+import automateHrP from "../images/Automate HR process 1.cms.jpg";
+import betterDecision from "../images/better decision making.jpg";
+import competitveAdv from "../images/competetive advantage (1).jpg";
+import datacollection from "../images/data collection and analysis.jpg";
+import enhanceSecurity from "../images/enhance security.jpg";
+import improveCustumer from "../images/improve customer service.jpg";
+import increasedEfficiency from "../images/increased efficiency 1.jpg";
+import personalization from "../images/personalization.png";
+import providingCust from "../images/providing customer support.jpg";
+import scalability from "../images/scalability.png";
+import trafficPattern from "../images/traffic pattern and behaviour.jpg";
+import securityPersonal from "../images/security personnal.jpg"
 
 // import paymentCoin from "../images/why-img1.png";
 import Equity from "../images/Equity.png";
@@ -463,5 +475,17 @@ export {
   easyInterpretion,
   monitorKey,
   optimizingBussiness,
-  sentimentAnalysis
+  sentimentAnalysis,
+  betterDecision,
+  automateHrP,
+  competitveAdv,
+  datacollection,
+  enhanceSecurity,
+  improveCustumer,
+  increasedEfficiency,
+  personalization,
+  providingCust,
+  scalability,
+  trafficPattern,
+  securityPersonal
 };
