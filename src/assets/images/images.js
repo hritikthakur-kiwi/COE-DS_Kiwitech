@@ -18,7 +18,7 @@ import {
   default as bannerSliderImg1,
   default as bannerSliderImg2,
   default as bannerSliderImg3,
-  default as bannerSliderImg4
+  default as bannerSliderImg4,
 } from "../images/J4o.gif";
 import lendingPlatform from "../images/lending-platform.svg";
 import iconLinkdin from "../images/linkdin.svg";
@@ -181,7 +181,7 @@ import personalization from "../images/personalization.png";
 import providingCust from "../images/providing customer support.jpg";
 import scalability from "../images/scalability.png";
 import trafficPattern from "../images/traffic pattern and behaviour.jpg";
-import securityPersonal from "../images/security personnal.jpg"
+import securityPersonal from "../images/security personnal.jpg";
 
 // import paymentCoin from "../images/why-img1.png";
 import Equity from "../images/Equity.png";
@@ -487,5 +487,5 @@ export {
   providingCust,
   scalability,
   trafficPattern,
-  securityPersonal
+  securityPersonal,
 };

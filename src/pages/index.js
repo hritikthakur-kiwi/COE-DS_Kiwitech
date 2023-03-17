@@ -162,10 +162,15 @@ export default function Home() {
               <div className="what-we-left">
                 <div className="what-we-img-area">
                   <div className="what-we-img-left">
-                    <Image
-                      src={whatWeImg1}
-                      alt="Predictive modeling and forecasting"
-                    />
+                    <div className="what-we-images-bx">
+                      <Image
+                        src={whatWeImg1}
+                        alt="Predictive modeling and forecasting"
+                      />
+                      <span className="what-we-img-txt">
+                        Predictive modeling and forecasting
+                      </span>
+                    </div>
                     <Image
                       src={whatWeImg2}
                       alt="machine learning and deep learning analysis"

@@ -344,6 +344,16 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.what-we-left .what-we-img-area .what-we-images-bx {
+  position: relative;
+}
+.what-we-left .what-we-img-area .what-we-images-bx .what-we-img-txt {
+  position: absolute;
+  left: 10px;
+  bottom: 34px;
+  display: inline-block;
+  /* word-break: break-all; */
+}
 .what-we-left .what-we-img-area .what-we-img-left img {
   margin-bottom: 23px;
   width: 275px;
