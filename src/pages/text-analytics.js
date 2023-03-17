@@ -3,7 +3,7 @@ import {
   enhanceMarketing, fraudDetection, gainInsights, iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, IdentifyTrends, improveOperational, sentimentAnalysis, textAnalytics
+  iconTwitter, IdentifyTrends, improveOperational, sentimentAnalysis
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
