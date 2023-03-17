@@ -66,7 +66,7 @@
 }
 .section-title {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 36px;
   /* line-height: 1.1px; */
   margin-bottom: 25px;
 }
@@ -365,9 +365,9 @@
   flex-direction: column;
 }
 .section-heading {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.37;
   letter-spacing: -0.64px;
   background: linear-gradient(88.41deg, #6f3af1 6.29%, #fb6369 70.23%);
   -webkit-background-clip: text;
@@ -682,9 +682,9 @@
 
 .why-choose-wrapper .why-choose-heading {
   color: #fff;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 1.37;
   text-align: center;
 }
 .why-img-items {

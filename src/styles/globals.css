@@ -151,15 +151,15 @@ body {
   margin-top: 85px;
 }
 .banner .banner-content-main .banner-heading {
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 600;
-  line-height: 1.6;
+  line-height: 1.37;
   margin: 0;
 }
 .gradient-heading {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 600;
-  line-height: 1.6;
+  line-height: 1.37;
   background: -webkit-linear-gradient(333deg, #6f3af1 6.29%, #fb6369 40.23%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1226,9 +1226,9 @@ body {
 }
 
 .sol-top-head h3 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.6;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.37;
 }
 .sol-para-main {
   margin-bottom: 30px;
