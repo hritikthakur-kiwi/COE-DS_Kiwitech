@@ -5,6 +5,7 @@ import {
   OurOfferingsImg3,
   OurOfferingsImg4,
   OurOfferingsImg5,
+  OurOfferingsImg6,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -126,8 +127,8 @@ function ServicesWeProvide(props) {
           </div>
         </div>
         {/* end card */}
-                {/* card */}
-                <div
+        {/* card */}
+        <div
           onClick={() => {
             handleClick("/data-visualization");
           }}
@@ -136,7 +137,7 @@ function ServicesWeProvide(props) {
           }`}
         >
           <div className="card-image">
-            <Image src={OurOfferingsImg5} alt="Enterprise solutions" />
+            <Image src={OurOfferingsImg6} alt="Enterprise solutions" />
           </div>
           <div className="card-content">
             <h4 className="card-title">

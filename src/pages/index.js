@@ -162,19 +162,44 @@ export default function Home() {
               <div className="what-we-left">
                 <div className="what-we-img-area">
                   <div className="what-we-img-left">
-                    <Image
-                      src={whatWeImg1}
-                      alt="Predictive modeling and forecasting"
-                    />
-                    <Image
-                      src={whatWeImg2}
-                      alt="machine learning and deep learning analysis"
-                    />
+                    <div className="what-we-images-bx">
+                      <Image
+                        src={whatWeImg1}
+                        alt="Predictive modeling and forecasting"
+                      />
+                      <span className="what-we-img-txt">
+                        Predictive modeling and forecasting
+                      </span>
+                    </div>
+                    <div className="what-we-images-bx">
+                      <Image
+                        src={whatWeImg2}
+                        alt="machine learning and deep learning analysis"
+                      />
+                      <span className="what-we-img-txt">
+                        Machine Learning and Deep Learning Analysis
+                      </span>
+                    </div>
                   </div>
                   <div className="what-we-img-right">
-                    <Image src={whatWeImg3} alt="Enterprise Solutions" />
-                    <Image src={whatWeImg4} alt="DeFI Solutions " />
-                    <Image src={whatWeImg5} alt="DAO Development " />
+                    <div className="what-we-images-bx">
+                      <Image src={whatWeImg3} alt="Enterprise Solutions" />
+                      <span className="what-we-img-txt">
+                        Natural language processing and text analysis
+                      </span>
+                    </div>
+
+                    <div className="what-we-images-bx">
+                      <Image src={whatWeImg4} alt="DeFI Solutions " />
+                      <span className="what-we-img-txt">Data Analysis</span>
+                    </div>
+
+                    <div className="what-we-images-bx">
+                      <Image src={whatWeImg5} alt="DAO Development " />
+                      <span className="what-we-img-txt">
+                        Data analysis and visualization
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
