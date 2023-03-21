@@ -64,16 +64,16 @@ export default function Footer() {
             <ul className="footer-link">
               <li>
                 <Link
-                  href="/nft-development"
+                  href="#"
                   className="nav-link"
-                  title="NFT Development"
+                  title="Predictive Analytics"
                 >
                   {t("FOOTERS.NFT_Development")}
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/crypto-currency-development"
+                  href="#"
                   className="nav-link"
                   title="Crypto Currency Development"
                 >
@@ -81,21 +81,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/defi-solutions"
-                  className="nav-link"
-                  title="DeFi solutions"
-                >
+                <Link href="#" className="nav-link" title="DeFi solutions">
                   {t("FOOTERS.DeFi_solutions")}
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/dao-development"
-                  className="nav-link"
-                  title="DAO development"
-                >
+                <Link href="#" className="nav-link" title="DAO development">
                   {t("FOOTERS.DAO_development")}
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="nav-link" title="Chat Gpt">
+                  {t("FOOTERS.Enterprise_solutions")}
                 </Link>
               </li>
               <li>
@@ -104,7 +101,7 @@ export default function Footer() {
                   className="nav-link"
                   title="Enterprise solutions"
                 >
-                  {t("FOOTERS.Enterprise_solutions")}
+                  {t("FOOTERS.Services_ChatGPT")}
                 </Link>
               </li>
             </ul>
@@ -121,10 +118,20 @@ export default function Footer() {
               </Link>
             </div>
             <div className="social-link">
-              <Link href="https://twitter.com/Web3kiwiTech" title="twitter" target="_blank" rel="noreferrer">
+              <Link
+                href="https://twitter.com/Web3kiwiTech"
+                title="twitter"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image src={iconTwitter} alt="Twitter" />
               </Link>
-              <Link href="https://www.linkedin.com/showcase/webcenterofexcellence/" title="linkedIn" target="_blank" rel="noreferrer">
+              <Link
+                href="https://www.linkedin.com/showcase/webcenterofexcellence/"
+                title="linkedIn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image src={iconLinkdin} alt="linkedIn" />
               </Link>
               <Link href="#" title="discord" target="_blank" rel="noreferrer">

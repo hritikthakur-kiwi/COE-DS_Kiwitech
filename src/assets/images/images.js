@@ -253,6 +253,7 @@ import OurOfferingsImg2 from "../images/OurOfferingsImg2.svg";
 import OurOfferingsImg3 from "../images/OurOfferingsImg3.svg";
 import OurOfferingsImg4 from "../images/OurOfferingsImg4.svg";
 import OurOfferingsImg5 from "../images/OurOfferingsImg5.svg";
+import OurOfferingsImg6 from "../images/OurOfferingsImg6.svg";
 
 export {
   OurOfferingsImg1,
@@ -260,6 +261,7 @@ export {
   OurOfferingsImg3,
   OurOfferingsImg4,
   OurOfferingsImg5,
+  OurOfferingsImg6,
   whatWeImg1,
   whatWeImg2,
   whatWeImg3,

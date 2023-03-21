@@ -349,10 +349,19 @@ body {
 }
 .what-we-left .what-we-img-area .what-we-images-bx .what-we-img-txt {
   position: absolute;
-  left: 10px;
-  bottom: 34px;
-  display: inline-block;
-  /* word-break: break-all; */
+  left: 0;
+  bottom: 23px;
+  top: 0;
+  right: 0;
+  padding: 10px 10px 10px 23px;
+  background: linear-gradient(180deg, rgba(45, 20, 116, 0) 0%, #2d1474 100%);
+  display: flex;
+  align-items: flex-end;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 20px;
 }
 .what-we-left .what-we-img-area .what-we-img-left img {
   margin-bottom: 23px;
@@ -1691,6 +1700,12 @@ body {
   }
   .sol-top-head h3 {
     font-size: 25px;
+  }
+  .what-we-left .what-we-img-area .what-we-images-bx .what-we-img-txt {
+    line-height: normal;
+    font-size: 10px;
+    font-weight: 400;
+    border-radius: 5px;
   }
 }
 @media (max-width: 575px) {
