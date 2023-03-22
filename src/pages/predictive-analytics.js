@@ -1,9 +1,15 @@
 import {
-  betterRiskManagement, competitveConfi,
-  enchanceCustomerExp, fraudDetection, iconGame,
+  betterRiskManagement,
+  competitveConfi,
+  enchanceCustomerExp,
+  fraudDetection,
+  iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, improveDM, increaseEffi, predictingChrun
+  iconTwitter,
+  improveDM,
+  increaseEffi,
+  predictingChrun,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -97,10 +103,11 @@ function NFTDevelopment(props) {
         {/* <h3 className="section-sub-heading text-white">{t("NFT_DEVELOPMENT.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
-            autoPlay={false}
+            autoPlay={true}
+            showDots={true}
             swipeable={true}
             draggable={true}
-            arrows={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
@@ -188,7 +195,6 @@ function NFTDevelopment(props) {
         </div>
       </div>
 
-      
       {/* ---- we facilate ----- */}
       <Standard />
       {/* -----  // End of we facilate ----- */}
@@ -207,7 +213,11 @@ function NFTDevelopment(props) {
                 </h3>
               </div>
               <div className="solution-img">
-                <Image src={predictingChrun} alt="solution" className="img-fluid" />
+                <Image
+                  src={predictingChrun}
+                  alt="solution"
+                  className="img-fluid"
+                />
               </div>
             </Col>
             <Col md={6}>
@@ -240,7 +250,11 @@ function NFTDevelopment(props) {
                 </h3>
               </div>
               <div className="solution-img">
-                <Image src={fraudDetection} alt="solution" className="img-fluid" />
+                <Image
+                  src={fraudDetection}
+                  alt="solution"
+                  className="img-fluid"
+                />
               </div>
             </Col>
             <Col md={6}>
@@ -254,7 +268,7 @@ function NFTDevelopment(props) {
               </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Solution </h3>
-            
+
                 <p className="sol-top-para">
                   Predictive analytics can be used to analyze historical
                   transactional data and identify patterns and anomalies that
@@ -268,7 +282,7 @@ function NFTDevelopment(props) {
           </Row>
         </div>
       </section>
-            {/* ---- // End of networks ----- */}
+      {/* ---- // End of networks ----- */}
       {/* Start FAQ  */}
       <section className="faqs-main">
         <div className="container">
