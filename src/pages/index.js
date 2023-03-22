@@ -191,14 +191,14 @@ export default function Home() {
 
                     <div className="what-we-images-bx">
                       <Image src={whatWeImg4} alt="DeFI Solutions " />
-                      <span className="what-we-img-txt">Data Analysis</span>
+                      <span className="what-we-img-txt">
+                        Data visualization
+                      </span>
                     </div>
 
                     <div className="what-we-images-bx">
                       <Image src={whatWeImg5} alt="DAO Development " />
-                      <span className="what-we-img-txt">
-                        Data analysis and visualization
-                      </span>
+                      <span className="what-we-img-txt">Data Analytics</span>
                     </div>
                   </div>
                 </div>
@@ -219,8 +219,8 @@ export default function Home() {
                     <li>{t("HOMEPAGE.What_we_do.listing_item_1")}</li>
                     <li>{t("HOMEPAGE.What_we_do.listing_item_2")}</li>
                     <li>{t("HOMEPAGE.What_we_do.listing_item_3")}</li>
-                    <li>{t("HOMEPAGE.What_we_do.listing_item_4")}</li>
                     <li>{t("HOMEPAGE.What_we_do.listing_item_5")}</li>
+                    <li>{t("HOMEPAGE.What_we_do.listing_item_4")}</li>
                   </ul>
                 </div>
               </div>
