@@ -1,9 +1,15 @@
 import {
   detectingFraud,
-  enhanceMarketing, fraudDetection, gainInsights, iconGame,
+  enhanceMarketing,
+  fraudDetection,
+  gainInsights,
+  iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, IdentifyTrends, improveOperational, sentimentAnalysis
+  iconTwitter,
+  IdentifyTrends,
+  improveOperational,
+  sentimentAnalysis,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -263,12 +269,9 @@ function textAnalytics(props) {
                 <p className="sol-top-para">
                   A retailer is struggling to keep up with the high volume of
                   customer feedback data generated from their online reviews and
-                  social media channels. They want to understand customer
-                  sentiment and preferences better to improve their products and
-                  services, but manually processing and analyzing this data is
-                  time-consuming and resource-intensive. They need a solution
-                  that can automate the analysis of customer feedback data and
-                  provide insights that can drive business decisions.
+                  social media channels. They need a solution that can automate
+                  the analysis of customer feedback data and provide insights
+                  that can drive business decisions.
                 </p>
               </div>
               <div className="sol-para-main">
@@ -286,7 +289,9 @@ function textAnalytics(props) {
               <div className="sol-top-head">
                 <h3>
                   Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Detect and Prevent Fraud Transaction Data</span>
+                  <span className="gradient-heading">
+                    Detect and Prevent Fraud Transaction Data
+                  </span>
                 </h3>
               </div>
               <div className="solution-img">
@@ -302,12 +307,9 @@ function textAnalytics(props) {
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
                   Any Bank, any financial institution, is struggling to detect
-                  and prevent fraud in their transaction data. They currently
-                  rely on manual reviews to identify potential fraud, but this
-                  process is time-consuming and often misses fraudulent
-                  activity. They need a solution that can automate the detection
-                  of potential fraud and provide real-time alerts to their fraud
-                  prevention team.
+                  and prevent fraud in their transaction data. They need a
+                  solution that can automate the detection of potential fraud
+                  and provide real-time alerts to their fraud prevention team.
                 </p>
               </div>
               <div className="sol-para-main">

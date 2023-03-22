@@ -130,8 +130,8 @@
         "FAQ_head":"FAQs",
         "FAQ_sub_head":"Frequently asked questions",
         "faq_q_1": "What is Predictive Analytics, and how does it differ from other types of analytics?",
-        "faq_a_1":"Predictive analytics is a branch of advanced analytics that uses statistical modeling, machine learning, and artificial intelligence algorithms to analyze historical data and predict future outcomes with a high degree of accuracy Predictive analytics differs from descriptive and diagnostic analytics as it uses past data to predict future events, trends, and behaviors, allowing organizations to optimize their operations, enhance customer experience, and drive business growth proactively.",
-        "faq_q_2": "What are some challenges associated with implementing Predictive Analytics, and   how can they be overcome?",
+        "faq_a_1":"Predictive analytics is a branch of advanced analytics that uses statistical modeling, machine learning, and artificial intelligence algorithms to analyze historical data and predict future outcomes with a high degree of accuracy Predictive analytics differs from descriptive and diagnostic analytics as it uses past data to predict future events, trends, and behaviors, allowing organizations to optimize their operations, enhance customer experience,and drive business growth proactively.",
+        "faq_q_2": "What are some challenges associated with implementing Predictive Analytics, and  how can they be overcome?",
         "faq_a_2":"Challenges of implementing predictive analytics include data quality issues, data security and privacy concerns, a shortage of skilled personnel, and the difficulty of integrating predictive models into existing systems.",
         "faq_q_3": "What is the cost associated with implementing predictive analytics in my business?",
         "faq_a_3":"The cost of implementing predictive analytics in your business can vary depending on factors such as the complexity of your data, the level of customization required, the technology and software needed, and the expertise of the data analysts involved. However, the benefits of predictive analytics, such as increased efficiency, better decision-making, and improved customer satisfaction, can ultimately result in a positive return on investment (ROI) for your business."
@@ -209,7 +209,7 @@
     "DAO_DEVELOPMENT": {
         "head_section_title": "Text Analytics",
         "head_section_subhead": "Unlock the Power of Words: Transform Your Business with Text Analytics",
-        "head_section_para":"Transform raw text data into valuable insights and make smarter business decisions with Text Analytics.",
+        "head_section_para":"By leveraging sophisticated algorithms and machine learning techniques, Text Analytics can help you uncover key insights and trends from large volumes of unstructured textual data. From customer feedback to social media conversations, Text Analytics can help you make data-driven decisions that drive growth and success. Unlock the power of words today and transform your business with Text Analytics.",
         "join_our_community":"Join our community",
         "carousel_section_head_1":"Gain insights into customer feedback",
         "carousel_section_text_1":"Text Analytics can be highly beneficial in gaining insights into customer feedback. By analyzing large volumes of unstructured textual data, Text Analytics can help businesses identify trends, sentiment, and key topics in customer feedback. This helps businesses better understand their customers and identify areas for improvement. With Text Analytics, businesses can make data-driven decisions that drive customer satisfaction and business growth.",
