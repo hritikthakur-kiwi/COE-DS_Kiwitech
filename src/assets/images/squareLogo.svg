@@ -1,0 +1,18 @@
+<svg width="99" height="99" viewBox="0 0 99 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24.75" height="24.75" fill="white" fill-opacity="0.4"/>
+<rect x="24.75" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect x="49.5" width="24.75" height="24.75" fill="#A783FF"/>
+<rect x="74.25" width="24.75" height="24.75" fill="white" fill-opacity="0.4"/>
+<rect y="24.75" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect y="49.5" width="24.75" height="24.75" fill="white" fill-opacity="0.4"/>
+<rect y="74.25" width="24.75" height="24.75" fill="#A783FF"/>
+<rect x="24.75" y="24.75" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect x="24.75" y="49.5" width="24.75" height="24.75" fill="#A783FF"/>
+<rect x="24.75" y="74.25" width="24.75" height="24.75" fill="#A783FF"/>
+<rect x="49.5" y="24.75" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect x="49.5" y="49.5" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect x="49.5" y="74.25" width="24.75" height="24.75" fill="white" fill-opacity="0.4"/>
+<rect x="74.25" y="24.75" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+<rect x="74.25" y="49.5" width="24.75" height="24.75" fill="white" fill-opacity="0.4"/>
+<rect x="74.25" y="74.25" width="24.75" height="24.75" fill="white" fill-opacity="0.2"/>
+</svg>

@@ -1,51 +1,40 @@
 import React from "react";
 import {
-  etherscan,
-  polygonLogo,
-  algorand,
-  palm,
-  xrpLedger,
-  rarible,
-  vechainLogo,
-  R3Corda,
-  HyperledgerIndyLogo,
-  HyperLedgerIIndy,
-  ipfs,
-  fileCoin,
-  infura,
-  metamask,
-  walletConnect,
-  trustWallet,
-  wyre,
-  moonPay,
-  stellarLogo,
-  CoinbaseLogo,
-  UniswapLogoandWordmark,
-  pancakeSwap,
-  OpenSea,
-  synapse,
-  AnySwap,
-  Hop,
-  HyperledgerFabric,
-  frameworks,
-  sawtooth,
-  explorer,
-  loadify,
-  teacherly,
-  hyperledger,
-  hyperledgerComposer,
-  iroha,
-  admitad,
-  Kuprik,
-  lendsmart,
-  megaun,
-  guardrailsBlack,
-  topica,
-  terbine,
-  internews,
-  nambataxi,
-  veeqo,
-  mythril,
+  sLogo,
+  ffmpegLogo,
+  pytorch,
+  yolo,
+  awsLogo,
+  autogluon,
+  fastApi,
+  numPy,
+  rasaLogo,
+  googleCloud,
+  huggingfaceLogo,
+  tensorFlow,
+  PlotlyLogo,
+  SpaCyLogo,
+  dockerLogo,
+  textBlob,
+  seabornLogo,
+  pandasLogo,
+  django,
+  streamlitLogo,
+  OpenCvLogo,
+  matplotlib,
+  coreNlp,
+  scikitLogo,
+  squareLogo,
+  brandLogo1,
+  scikitImg,
+  gensimLogo,
+  amazonComprehend,
+  flaskLogo,
+  pyLogo,
+  pillowLogo,
+  kerasLogo,
+  fastText,
+  Javascript,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -63,62 +52,110 @@ function TechStacks() {
         </h5>
         <div className="logo-section">
           <div className="logo-container">
-            <Image src={frameworks} alt="Company Logo" />
+            <Image src={sLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={sawtooth} alt="Company Logo" />
+            <Image src={ffmpegLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={explorer} alt="Company Logo" />
+            <Image src={pytorch} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={loadify} alt="Company Logo" />
+            <Image src={yolo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={teacherly} alt="Company Logo" />
+            <Image src={awsLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={hyperledger} alt="Company Logo" />
+            <Image src={autogluon} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={hyperledgerComposer} alt="Company Logo" />
+            <Image src={fastApi} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={iroha} alt="Company Logo" />
+            <Image src={numPy} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={admitad} alt="Company Logo" />
+            <Image src={rasaLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={Kuprik} alt="Company Logo" />
+            <Image src={googleCloud} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={lendsmart} alt="Company Logo" />
+            <Image src={huggingfaceLogo} alt="Company Logo" />
           </div>
 
           <div className="logo-container">
-            <Image src={megaun} alt="Company Logo" />
+            <Image src={tensorFlow} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={guardrailsBlack} alt="Company Logo" />
+            <Image src={PlotlyLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={topica} alt="Company Logo" />
+            <Image src={SpaCyLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={terbine} alt="Company Logo" />
+            <Image src={dockerLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={internews} alt="Company Logo" />
+            <Image src={textBlob} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={nambataxi} alt="Company Logo" />
+            <Image src={seabornLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={veeqo} alt="Company Logo" />
+            <Image src={pandasLogo} alt="Company Logo" />
           </div>
           <div className="logo-container">
-            <Image src={mythril} alt="Company Logo" />
+            <Image src={django} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={streamlitLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={OpenCvLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={matplotlib} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={coreNlp} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={scikitLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={squareLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={brandLogo1} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={scikitImg} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={gensimLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={amazonComprehend} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={flaskLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={pyLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={pillowLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={kerasLogo} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={fastText} alt="Company Logo" />
+          </div>
+          <div className="logo-container">
+            <Image src={Javascript} alt="Company Logo" />
           </div>
         </div>
       </div>

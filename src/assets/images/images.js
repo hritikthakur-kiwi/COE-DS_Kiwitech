@@ -228,25 +228,43 @@ import whatWeImg4 from "../images/what-we-img4.svg";
 import whatWeImg5 from "../images/what-we-img5.svg";
 
 // Techstack logos
-import admitad from "../images/admitad.svg";
-import explorer from "../images/explorer.svg";
-import frameworks from "../images/frameworks.svg";
-import guardrailsBlack from "../images/guardrails-black.svg";
-import hyperledger from "../images/hyperledger.svg";
-import hyperledgerComposer from "../images/hyperledgerComposer.svg";
-import internews from "../images/internews.svg";
-import iroha from "../images/iroha.svg";
-import Kuprik from "../images/Kuprik.svg";
-import lendsmart from "../images/lendsmart.svg";
-import loadify from "../images/loadify.svg";
-import megaun from "../images/megaun.svg";
-import mythril from "../images/mythril.svg";
-import nambataxi from "../images/nambataxi.svg";
-import sawtooth from "../images/sawtooth.svg";
-import teacherly from "../images/teacherly.svg";
-import terbine from "../images/terbine.svg";
-import topica from "../images/topica.svg";
-import veeqo from "../images/veeqo.svg";
+
+// new logo
+import sLogo from "../images/s-logo.svg";
+import ffmpegLogo from "../images/ffmpeg-logo.svg";
+import pytorch from "../images/pytorch.svg";
+import yolo from "../images/yolo.svg";
+import awsLogo from "../images/awsLogo.svg";
+import autogluon from "../images/autogluon.svg";
+import fastApi from "../images/fastApi.svg";
+import numPy from "../images/numPy.svg";
+import rasaLogo from "../images/rasaLogo.svg";
+import googleCloud from "../images/googleCloud.svg";
+import huggingfaceLogo from "../images/huggingfaceLogo.svg";
+import tensorFlow from "../images/tensorFlow.svg";
+import PlotlyLogo from "../images/PlotlyLogo.svg";
+import SpaCyLogo from "../images/SpaCyLogo.svg";
+import dockerLogo from "../images/dockerLogo.svg";
+import textBlob from "../images/textBlob.svg";
+import seabornLogo from "../images/seabornLogo.svg";
+import pandasLogo from "../images/pandasLogo.svg";
+import django from "../images/django.svg";
+import streamlitLogo from "../images/streamlitLogo.svg";
+import OpenCvLogo from "../images/OpenCvLogo.svg";
+import matplotlib from "../images/matplotlib.svg";
+import coreNlp from "../images/coreNlp.svg";
+import scikitLogo from "../images/scikitLogo.svg";
+import squareLogo from "../images/squareLogo.svg";
+import brandLogo1 from "../images/brandLogo1.svg";
+import scikitImg from "../images/scikitImg.svg";
+import gensimLogo from "../images/gensimLogo.svg";
+import amazonComprehend from "../images/amazonComprehend.svg";
+import flaskLogo from "../images/flaskLogo.svg";
+import pyLogo from "../images/pyLogo.svg";
+import pillowLogo from "../images/pillowLogo.svg";
+import kerasLogo from "../images/kerasLogo.svg";
+import fastText from "../images/fastText.svg";
+import Javascript from "../images/Javascript.svg";
 
 import OurOfferingsImg1 from "../images/OurOfferingsImg1.svg";
 import OurOfferingsImg2 from "../images/OurOfferingsImg2.svg";
@@ -256,6 +274,41 @@ import OurOfferingsImg5 from "../images/OurOfferingsImg5.svg";
 import OurOfferingsImg6 from "../images/OurOfferingsImg6.svg";
 
 export {
+  sLogo,
+  ffmpegLogo,
+  pytorch,
+  yolo,
+  awsLogo,
+  autogluon,
+  fastApi,
+  numPy,
+  rasaLogo,
+  googleCloud,
+  huggingfaceLogo,
+  tensorFlow,
+  PlotlyLogo,
+  SpaCyLogo,
+  dockerLogo,
+  textBlob,
+  seabornLogo,
+  pandasLogo,
+  django,
+  streamlitLogo,
+  OpenCvLogo,
+  matplotlib,
+  coreNlp,
+  scikitLogo,
+  squareLogo,
+  brandLogo1,
+  scikitImg,
+  gensimLogo,
+  amazonComprehend,
+  flaskLogo,
+  pyLogo,
+  pillowLogo,
+  kerasLogo,
+  fastText,
+  Javascript,
   OurOfferingsImg1,
   OurOfferingsImg2,
   OurOfferingsImg3,
@@ -267,25 +320,6 @@ export {
   whatWeImg3,
   whatWeImg4,
   whatWeImg5,
-  frameworks,
-  sawtooth,
-  explorer,
-  loadify,
-  teacherly,
-  hyperledger,
-  hyperledgerComposer,
-  iroha,
-  admitad,
-  Kuprik,
-  lendsmart,
-  megaun,
-  guardrailsBlack,
-  topica,
-  terbine,
-  internews,
-  nambataxi,
-  veeqo,
-  mythril,
   staking,
   dividen,
   exchange,

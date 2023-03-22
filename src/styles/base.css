@@ -196,12 +196,13 @@
   width: 50%;
   padding-left: 15px;
   padding-right: 15px;
-  height: 80px;
+  height: 120px;
   display: flex;
+  margin-bottom: 20px;
+  align-items: center;
 }
 .logo-section .logo-container img {
   max-width: 120px;
-  height: auto;
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
