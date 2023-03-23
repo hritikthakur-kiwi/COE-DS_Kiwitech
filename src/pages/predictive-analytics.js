@@ -9,6 +9,7 @@ import {
   improveDM,
   increaseEffi,
   predictingChrun,
+  EnhancedCustomer,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -148,7 +149,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={predictingChrun} alt="user" />
+                  <Image src={EnhancedCustomer} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
