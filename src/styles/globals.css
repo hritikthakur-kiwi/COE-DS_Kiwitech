@@ -711,29 +711,67 @@ body {
   background: linear-gradient(232.6deg, #032d9d 2.75%, #f75272 102.33%);
   border: 1px solid #000000;
   width: 49.62%;
-  padding: 40px;
+  padding: 40px 30px;
   margin-block: 5px;
+  /* display: flex;
+    min-height: 170px;
+    align-items: center; */
 }
-.standard-item.std-item1 {
-  border-top-left-radius: 5px;
+.standard-item:nth-child(1),
+.standard-item:nth-child(5),
+.standard-item:nth-child(9),
+.standard-item:nth-child(13),
+.standard-item:nth-child(17) {
+  background: linear-gradient(232.6deg, #032d9d 2.75%, #f75272 102.33%);
 }
-.standard-item.std-item2 {
+.standard-item:nth-child(2),
+.standard-item:nth-child(6),
+.standard-item:nth-child(10),
+.standard-item:nth-child(14),
+.standard-item:nth-child(18) {
   background: linear-gradient(125.72deg, #7400e8 3.4%, #33cbcc 103.17%);
-  border-top-right-radius: 5px;
 }
-.standard-item.std-item3 {
+.standard-item:nth-child(3),
+.standard-item:nth-child(7),
+.standard-item:nth-child(11),
+.standard-item:nth-child(15),
+.standard-item:nth-child(19) {
   background: linear-gradient(234.66deg, #33cbcc 5.97%, #7400e8 104.44%);
-  border-bottom-left-radius: 5px;
 }
-.standard-item.std-item4 {
+.standard-item:nth-child(4),
+.standard-item:nth-child(8),
+.standard-item:nth-child(12),
+.standard-item:nth-child(16),
+.standard-item:nth-child(20) {
   background: linear-gradient(
     304.92deg,
     #fbb034 -3.51%,
     #fb63da 37.67%,
     #f75272 96.71%
   );
+}
+.standard-item:nth-last-child(1) {
   border-bottom-right-radius: 5px;
 }
+.standard-item:nth-last-child(2) {
+  border-bottom-left-radius: 5px;
+}
+
+.standard-item:nth-child(1) {
+  border-top-left-radius: 5px;
+}
+.standard-item:nth-child(2) {
+  border-top-right-radius: 5px;
+}
+/* facility css */
+.standard-item.facility-item {
+  display: flex;
+  align-items: center;
+}
+.standard-item.facility-item .facility-icon {
+  margin-right: 24px;
+}
+/* ------ */
 .standard-item .standard-item-head {
   font-size: 20px;
   font-weight: 600;
@@ -1246,6 +1284,9 @@ body {
   line-height: 28px;
   margin-bottom: 10px;
 }
+.solution-img {
+  padding: 30px 0;
+}
 /* Dao services */
 .dao-services-wrapper {
   padding-top: 60px;
@@ -1690,6 +1731,16 @@ body {
     font-weight: 400;
     border-radius: 5px;
   }
+  .standard-item:nth-child(1) {
+    border-top-right-radius: 5px;
+  }
+  .standard-item:nth-child(2),
+  .standard-item:nth-last-child(2) {
+    border-radius: 0;
+  }
+  .standard-item:nth-last-child(1) {
+    border-bottom-left-radius: 5px;
+  }
 }
 @media (max-width: 575px) {
   .solutions-details .solutions-list {
@@ -1697,5 +1748,17 @@ body {
   }
   .solutions-details .solutions-list .solution-item {
     padding: 0;
+  }
+  .standard-item.facility-item {
+    flex-direction: column;
+  }
+  .standard-item.facility-item .facility-icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .standard-item.facility-item .standard-para {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
   }
 }

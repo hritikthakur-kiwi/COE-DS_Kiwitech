@@ -152,7 +152,7 @@ import cryptoDevWallet from "../images/crypto-dev-wallet.png";
 import defi from "../images/defi.svg";
 import detectingFraud from "../images/detecting fraud and risk.jpg";
 import enhanceMarketing from "../images/enhance marketing campaign.jpg";
-import fraudDetection from "../images/fraud detection 2.jpg";
+import fraudDetection from "../images/fraud-detection.png";
 import gainInsights from "../images/gain insights into customer feedback.webp";
 import IdentifyTrends from "../images/identify trends and patterns.jpg";
 import improveCust from "../images/improve customer experience.jpg";
@@ -217,7 +217,7 @@ import betterRiskManagement from "../images/better risk management.jpg";
 import competitveConfi from "../images/compititve.jpg";
 import improveDM from "../images/improve decision making 1.png";
 import increaseEffi from "../images/increased efficiency.jpg";
-import predictingChrun from "../images/predicting-customer-churn.jpg";
+import predictingChrun from "../images/predicting-customer-churn.png";
 
 // for data science
 
@@ -273,7 +273,28 @@ import OurOfferingsImg4 from "../images/OurOfferingsImg4.svg";
 import OurOfferingsImg5 from "../images/OurOfferingsImg5.svg";
 import OurOfferingsImg6 from "../images/OurOfferingsImg6.svg";
 
+import customerService from "../images/customer-service.svg";
+import healthcare from "../images/healthcare.svg";
+import searchGlass from "../images/search-glass.svg";
+import emailMarketing from "../images/email-marketing.svg";
+import risk from "../images/risk.svg";
+import supplyChain from "../images/supply-chain.svg";
+import timeManagement from "../images/time-management.svg";
+import accurateSales from "../images/accurateSales.svg";
+import investment from "../images/investment.svg";
+import analysis from "../images/analysis.svg";
+
 export {
+  customerService,
+  healthcare,
+  searchGlass,
+  emailMarketing,
+  risk,
+  supplyChain,
+  timeManagement,
+  accurateSales,
+  investment,
+  analysis,
   sLogo,
   ffmpegLogo,
   pytorch,
