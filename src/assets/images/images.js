@@ -213,11 +213,11 @@ import dividen from "../images/dividend.svg";
 import exchange from "../images/exchange.svg";
 import staking from "../images/stake.svg";
 
-import betterRiskManagement from "../images/better risk management.jpg";
-import competitveConfi from "../images/compititve.jpg";
-import improveDM from "../images/improve decision making 1.png";
-import increaseEffi from "../images/increased efficiency.jpg";
-import predictingChrun from "../images/predicting-customer-churn.png";
+import improveDM from "../images/Improved-decision-making.svg";
+import increaseEffi from "../images/Increased-efficiency.svg";
+import predictingChrun from "../images/Enhanced-customer-experience.svg";
+import betterRiskManagement from "../images/Better-Risk-Management.svg";
+import competitveConfi from "../images/Competitive-advantage.svg";
 
 // for data science
 

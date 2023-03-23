@@ -1,7 +1,6 @@
 import {
   betterRiskManagement,
   competitveConfi,
-  enchanceCustomerExp,
   fraudDetection,
   iconGame,
   iconLinkdin,
@@ -149,7 +148,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={enchanceCustomerExp} alt="user" />
+                  <Image src={predictingChrun} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
