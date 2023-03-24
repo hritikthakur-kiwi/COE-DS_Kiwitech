@@ -1,11 +1,26 @@
 import {
-  cosnumerBehavior, iconGame,
+  cosnumerBehavior,
+  iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, improveCust,
+  iconTwitter,
+  improveCust,
   increasedBussiness,
-  personalisedRec, reduCus,
-  targetCust
+  personalisedRec,
+  reduCus,
+  targetCust,
+  recomFacilitateIcon1,
+  recomFacilitateIcon2,
+  recomFacilitateIcon3,
+  recomFacilitateIcon4,
+  recomFacilitateIcon5,
+  recomFacilitateIcon6,
+  recomFacilitateIcon7,
+  recomFacilitateIcon8,
+  recomFacilitateIcon9,
+  recomFacilitateIcon10,
+  PersonalizedRecommendations,
+  personalizedRecommEnter,
 } from "@/assets/images/images";
 import Footer from "@/components/Footer";
 import Image from "next/image";
@@ -91,13 +106,13 @@ function CryptoCurrencyDevelopment(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("CRYPTO_CURRENCY_DEV.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
             autoPlay={false}
+            showDots={true}
             swipeable={true}
             draggable={true}
-            arrows={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
@@ -112,7 +127,7 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={improveCust} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("CRYPTO_CURRENCY_DEV.carousel_section_head_1")}
                   </h4>
                   <p className="nft-text-para">
@@ -127,7 +142,7 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={increasedBussiness} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("CRYPTO_CURRENCY_DEV.carousel_section_head_2")}
                   </h4>
                   <p className="nft-text-para">
@@ -142,7 +157,7 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={cosnumerBehavior} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("CRYPTO_CURRENCY_DEV.carousel_section_head_3")}
                   </h4>
                   <p className="nft-text-para">
@@ -157,7 +172,7 @@ function CryptoCurrencyDevelopment(props) {
                   <Image src={reduCus} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("CRYPTO_CURRENCY_DEV.carousel_section_head_4")}
                   </h4>
                   <p className="nft-text-para">
@@ -173,9 +188,9 @@ function CryptoCurrencyDevelopment(props) {
                 </div>
                 <div className="nft-review">
                   <p className="nft-text-para">
-                  <h4 className="nft-review-head">
-                    {t("CRYPTO_CURRENCY_DEV.carousel_section_head_5")}
-                  </h4>
+                    <h4 className="nft-review-head">
+                      {t("CRYPTO_CURRENCY_DEV.carousel_section_head_5")}
+                    </h4>
                     {t("CRYPTO_CURRENCY_DEV.carousel_section_text_5")}
                   </p>
                 </div>
@@ -199,55 +214,105 @@ function CryptoCurrencyDevelopment(props) {
                 </h5>
               </div>
               <div className="standard-content-main">
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_1")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon1} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_1")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_2")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon2} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_2")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item3">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_3")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon3} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_3")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item4">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_4")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon4} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_4")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_5")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon5} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_5")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_6")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon6} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_6")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_7")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon7} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_7")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_8")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon8} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_8")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_9")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon9} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_9")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("CRYPTO_CURRENCY_DEV.nft_standard_text_10")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={recomFacilitateIcon10} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("CRYPTO_CURRENCY_DEV.nft_standard_text_10")}
+                    </p>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -260,24 +325,17 @@ function CryptoCurrencyDevelopment(props) {
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6}>
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Personalized Recommendations
-                  </span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={personalisedRec}
-                  alt="solution"
-                  className="img-fluid"
-                />
+                <h3> Real World Problem: Solution example</h3>
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Personalized Recommendations
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -298,23 +356,30 @@ function CryptoCurrencyDevelopment(props) {
                 </p>
               </div>
             </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Fraud Detection</span>
-                </h3>
-              </div>
-              <div className="solution-img">
+            <Col md={6} className="mt-4">
+              <div className="solution-img p-0">
                 <Image
-                  src={personalisedRec}
+                  src={PersonalizedRecommendations}
+                  alt="Personalized Recommendations"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="mt-5 pt-3 order-two f-des">
+              <div className="solution-img p-0">
+                <Image
+                  src={personalizedRecommEnter}
                   alt="solution"
                   className="img-fluid"
                 />
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Personalized Recommendation in Entertainment
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
