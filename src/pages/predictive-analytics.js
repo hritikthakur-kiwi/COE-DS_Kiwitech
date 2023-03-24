@@ -203,14 +203,14 @@ function NFTDevelopment(props) {
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6} className="mt-5">
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Predicting Customer Churn
-                  </span>
-                </h3>
+                <h3>Real World Problem: Solution Example</h3>
+              </div>
+            </Col>
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading">Predicting Customer Churn</h3>
               </div>
               <div className="solution-img">
                 <Image
@@ -220,7 +220,7 @@ function NFTDevelopment(props) {
                 />
               </div>
             </Col>
-            <Col md={6} className="mt-5">
+            <Col md={6} className="mt-4">
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -242,7 +242,7 @@ function NFTDevelopment(props) {
               </div>
             </Col>
 
-            <Col md={6} className="mt-5 order-two">
+            <Col md={6} className="mt-5 pt-3 order-two f-des">
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -264,14 +264,11 @@ function NFTDevelopment(props) {
                 </p>
               </div>
             </Col>
-            <Col md={6} className="mt-5 order-one">
+            <Col md={6} className="mt-5 pt-3 order-one">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Fraud Detection</span>
-                </h3>
+                <h3 className="gradient-heading">Fraud Detection</h3>
               </div>
-              <div className="solution-img">
+              <div className="solution-img pt-0">
                 <Image
                   src={fraudDetection}
                   alt="solution"
