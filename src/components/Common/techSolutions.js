@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  sLogo,
+  SciPy,
   ffmpegLogo,
   pytorch,
   yolo,
@@ -24,8 +24,7 @@ import {
   matplotlib,
   coreNlp,
   scikitLogo,
-  squareLogo,
-  brandLogo1,
+  MedSpaCy,
   scikitImg,
   gensimLogo,
   amazonComprehend,
@@ -52,110 +51,104 @@ function TechStacks() {
         </h5>
         <div className="logo-section">
           <div className="logo-container">
-            <Image src={sLogo} alt="Company Logo" />
+            <Image src={SciPy} alt="SciPy" />
           </div>
           <div className="logo-container">
-            <Image src={ffmpegLogo} alt="Company Logo" />
+            <Image src={ffmpegLogo} alt="FFmpegLogo" />
           </div>
           <div className="logo-container">
-            <Image src={pytorch} alt="Company Logo" />
+            <Image src={pytorch} alt="Pytorch" />
           </div>
           <div className="logo-container">
-            <Image src={yolo} alt="Company Logo" />
+            <Image src={yolo} alt="Yolo" />
           </div>
           <div className="logo-container">
-            <Image src={awsLogo} alt="Company Logo" />
+            <Image src={awsLogo} alt="aws" />
           </div>
           <div className="logo-container">
-            <Image src={autogluon} alt="Company Logo" />
+            <Image src={autogluon} alt="AutoGluon" />
           </div>
           <div className="logo-container">
-            <Image src={fastApi} alt="Company Logo" />
+            <Image src={fastApi} alt="fastApi" />
           </div>
           <div className="logo-container">
-            <Image src={numPy} alt="Company Logo" />
+            <Image src={numPy} alt="NumPy" />
           </div>
           <div className="logo-container">
-            <Image src={rasaLogo} alt="Company Logo" />
+            <Image src={rasaLogo} alt="RASA" />
           </div>
           <div className="logo-container">
-            <Image src={googleCloud} alt="Company Logo" />
+            <Image src={googleCloud} alt="Google Cloud" />
           </div>
           <div className="logo-container">
-            <Image src={huggingfaceLogo} alt="Company Logo" />
+            <Image src={huggingfaceLogo} alt="Hugging Face" />
           </div>
 
           <div className="logo-container">
-            <Image src={tensorFlow} alt="Company Logo" />
+            <Image src={tensorFlow} alt="tensorFlow" />
           </div>
           <div className="logo-container">
-            <Image src={PlotlyLogo} alt="Company Logo" />
+            <Image src={PlotlyLogo} alt="Plotly" />
           </div>
           <div className="logo-container">
-            <Image src={SpaCyLogo} alt="Company Logo" />
+            <Image src={SpaCyLogo} alt="SpaCy" />
           </div>
           <div className="logo-container">
-            <Image src={dockerLogo} alt="Company Logo" />
+            <Image src={dockerLogo} alt="Docker" />
           </div>
           <div className="logo-container">
-            <Image src={textBlob} alt="Company Logo" />
+            <Image src={textBlob} alt="TextBlob" />
           </div>
           <div className="logo-container">
-            <Image src={seabornLogo} alt="Company Logo" />
+            <Image src={seabornLogo} alt="seaborn" />
           </div>
           <div className="logo-container">
-            <Image src={pandasLogo} alt="Company Logo" />
+            <Image src={pandasLogo} alt="pandas" />
           </div>
           <div className="logo-container">
-            <Image src={django} alt="Company Logo" />
+            <Image src={django} alt="django" />
           </div>
           <div className="logo-container">
-            <Image src={streamlitLogo} alt="Company Logo" />
+            <Image src={streamlitLogo} alt="streamlit" />
           </div>
           <div className="logo-container">
-            <Image src={OpenCvLogo} alt="Company Logo" />
+            <Image src={OpenCvLogo} alt="OpenCV" />
           </div>
           <div className="logo-container">
-            <Image src={matplotlib} alt="Company Logo" />
+            <Image src={matplotlib} alt="matplotLipb" />
           </div>
           <div className="logo-container">
-            <Image src={coreNlp} alt="Company Logo" />
+            <Image src={coreNlp} alt="CoreNLP" />
           </div>
           <div className="logo-container">
-            <Image src={scikitLogo} alt="Company Logo" />
+            <Image src={scikitLogo} alt="scikit learn" />
           </div>
           <div className="logo-container">
-            <Image src={squareLogo} alt="Company Logo" />
+            <Image src={MedSpaCy} alt="MedSpaCy" />
           </div>
           <div className="logo-container">
-            <Image src={brandLogo1} alt="Company Logo" />
+            <Image src={scikitImg} alt="scikitImage" />
           </div>
           <div className="logo-container">
-            <Image src={scikitImg} alt="Company Logo" />
+            <Image src={gensimLogo} alt="GENSIM" />
           </div>
           <div className="logo-container">
-            <Image src={gensimLogo} alt="Company Logo" />
+            <Image src={amazonComprehend} alt="Amazon Comprehend" />
           </div>
           <div className="logo-container">
-            <Image src={amazonComprehend} alt="Company Logo" />
+            <Image src={flaskLogo} alt="Flask" />
           </div>
           <div className="logo-container">
-            <Image src={flaskLogo} alt="Company Logo" />
+            <Image src={pyLogo} alt="Python Pytessaract" />
           </div>
           <div className="logo-container">
-            <Image src={pyLogo} alt="Company Logo" />
+            <Image src={pillowLogo} alt="pillow" />
           </div>
           <div className="logo-container">
-            <Image src={pillowLogo} alt="Company Logo" />
+            <Image src={kerasLogo} alt="keras" />
           </div>
           <div className="logo-container">
-            <Image src={kerasLogo} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={fastText} alt="Company Logo" />
-          </div>
-          <div className="logo-container">
-            <Image src={Javascript} alt="Company Logo" />
+            <Image src={fastText} alt="fastText" />
           </div>
         </div>
       </div>

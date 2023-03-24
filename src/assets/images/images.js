@@ -127,7 +127,7 @@ import whatWeImg5 from "../images/what-we-img5.svg";
 // Techstack logos
 
 // new logo
-import sLogo from "../images/s-logo.svg";
+import SciPy from "../images/SciPy-logo.svg";
 import ffmpegLogo from "../images/ffmpeg-logo.svg";
 import pytorch from "../images/pytorch.svg";
 import yolo from "../images/yolo.svg";
@@ -151,8 +151,8 @@ import OpenCvLogo from "../images/OpenCvLogo.svg";
 import matplotlib from "../images/matplotlib.svg";
 import coreNlp from "../images/coreNlp.svg";
 import scikitLogo from "../images/scikitLogo.svg";
-import squareLogo from "../images/squareLogo.svg";
-import brandLogo1 from "../images/brandLogo1.svg";
+// import squareLogo from "../images/squareLogo.svg";
+import MedSpaCy from "../images/MedSpaCy.svg";
 import scikitImg from "../images/scikitImg.svg";
 import gensimLogo from "../images/gensimLogo.svg";
 import amazonComprehend from "../images/amazonComprehend.svg";
@@ -192,7 +192,7 @@ export {
   accurateSales,
   investment,
   analysis,
-  sLogo,
+  SciPy,
   ffmpegLogo,
   pytorch,
   yolo,
@@ -216,8 +216,7 @@ export {
   matplotlib,
   coreNlp,
   scikitLogo,
-  squareLogo,
-  brandLogo1,
+  MedSpaCy,
   scikitImg,
   gensimLogo,
   amazonComprehend,
