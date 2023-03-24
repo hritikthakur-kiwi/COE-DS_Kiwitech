@@ -1237,6 +1237,7 @@ body {
 .solution-provide-wrapper {
   padding-top: 60px;
 }
+
 .solutions-details .top-para {
   margin-top: 20px;
 }
@@ -1740,6 +1741,10 @@ body {
   }
   .standard-item:nth-last-child(1) {
     border-bottom-left-radius: 5px;
+  }
+  .solution-provide-wrapper .f-des {
+    margin-top: 1rem !important;
+    padding-top: 0 !important;
   }
 }
 @media (max-width: 575px) {

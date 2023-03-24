@@ -127,7 +127,7 @@ import whatWeImg5 from "../images/what-we-img5.svg";
 // Techstack logos
 
 // new logo
-import sLogo from "../images/s-logo.svg";
+import SciPy from "../images/SciPy-logo.svg";
 import ffmpegLogo from "../images/ffmpeg-logo.svg";
 import pytorch from "../images/pytorch.svg";
 import yolo from "../images/yolo.svg";
@@ -151,8 +151,8 @@ import OpenCvLogo from "../images/OpenCvLogo.svg";
 import matplotlib from "../images/matplotlib.svg";
 import coreNlp from "../images/coreNlp.svg";
 import scikitLogo from "../images/scikitLogo.svg";
-import squareLogo from "../images/squareLogo.svg";
-import brandLogo1 from "../images/brandLogo1.svg";
+// import squareLogo from "../images/squareLogo.svg";
+import MedSpaCy from "../images/MedSpaCy.svg";
 import scikitImg from "../images/scikitImg.svg";
 import gensimLogo from "../images/gensimLogo.svg";
 import amazonComprehend from "../images/amazonComprehend.svg";
@@ -180,8 +180,34 @@ import timeManagement from "../images/time-management.svg";
 import accurateSales from "../images/accurateSales.svg";
 import investment from "../images/investment.svg";
 import analysis from "../images/analysis.svg";
+// recom
+import recomFacilitateIcon1 from "../images/recomFacilitateIcon1.svg";
+import recomFacilitateIcon2 from "../images/recomFacilitateIcon2.svg";
+import recomFacilitateIcon3 from "../images/recomFacilitateIcon3.svg";
+import recomFacilitateIcon4 from "../images/recomFacilitateIcon4.svg";
+import recomFacilitateIcon5 from "../images/recomFacilitateIcon5.svg";
+import recomFacilitateIcon6 from "../images/recomFacilitateIcon6.svg";
+import recomFacilitateIcon7 from "../images/recomFacilitateIcon7.svg";
+import recomFacilitateIcon8 from "../images/recomFacilitateIcon8.svg";
+import recomFacilitateIcon9 from "../images/recomFacilitateIcon9.svg";
+import recomFacilitateIcon10 from "../images/recomFacilitateIcon10.svg";
+
+import PersonalizedRecommendations from "../images/Personalized-Recommendations.svg";
+import personalizedRecommEnter from "../images/personalizedRecommEnter.svg";
 
 export {
+  PersonalizedRecommendations,
+  personalizedRecommEnter,
+  recomFacilitateIcon1,
+  recomFacilitateIcon2,
+  recomFacilitateIcon3,
+  recomFacilitateIcon4,
+  recomFacilitateIcon5,
+  recomFacilitateIcon6,
+  recomFacilitateIcon7,
+  recomFacilitateIcon8,
+  recomFacilitateIcon9,
+  recomFacilitateIcon10,
   customerService,
   healthcare,
   searchGlass,
@@ -192,7 +218,7 @@ export {
   accurateSales,
   investment,
   analysis,
-  sLogo,
+  SciPy,
   ffmpegLogo,
   pytorch,
   yolo,
@@ -216,8 +242,7 @@ export {
   matplotlib,
   coreNlp,
   scikitLogo,
-  squareLogo,
-  brandLogo1,
+  MedSpaCy,
   scikitImg,
   gensimLogo,
   amazonComprehend,
