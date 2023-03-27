@@ -1,12 +1,21 @@
 import {
-  automateHrP, datacollection, iconGame,
+  automateHrP,
+  datacollection,
+  iconGame,
   iconLinkdin,
   iconTelegram,
   iconTwitter,
-  improveCustumer, increasedEfficiency,
+  improveCustumer,
+  increasedEfficiency,
   personalization,
   providingCust,
-  scalability
+  scalability,
+  imageFacilitateIcon1,
+  imageFacilitateIcon2,
+  visualizationFacilitateIcon4,
+  TrainingandEducation,
+  maintenanceAndSupport,
+  AIIcon,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -49,7 +58,7 @@ function NFTDevelopment(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner chatGpt-banner">
         <div className="container">
           <Row>
             <Col md={12}>
@@ -100,10 +109,11 @@ function NFTDevelopment(props) {
         {/* <h3 className="section-sub-heading text-white">{t("CHATGPT_CHATBOT.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
-            autoPlay={false}
+            autoPlay={true}
+            showDots={true}
             swipeable={true}
             draggable={true}
-            arrows={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
@@ -192,88 +202,202 @@ function NFTDevelopment(props) {
       </div>
 
       {/* ---- we facilate ----- */}
-      <Standard />
+      <section className="standard-main">
+        <div className="container">
+          <Row>
+            <Col md={12}>
+              <div className="network-top-head">
+                <h3 className="section-heading extra-small-gradient">
+                  {t("DAO_DEVELOPMENT.nft_standards_sec_head")}
+                </h3>
+                <h5 className="banner-para">
+                  Our effective services for ChatGPT & ChatBOT
+                </h5>
+              </div>
+              <div className="standard-content-main">
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image
+                      src={imageFacilitateIcon1}
+                      alt="Customized Solutions"
+                    />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Customized Solutions</h4>
+                    <p className="standard-para">
+                      We can create customized ChatGPT and Chatbot solutions
+                      that are tailored to the specific needs of a customer.
+                      This can include personalized conversational interfaces,
+                      integration with existing systems, and training for
+                      employees
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon2} alt="Data Analytics" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Data Analytics</h4>
+                    <p className="standard-para">
+                      We can provide data analytics services to customers,
+                      leveraging the insights gained from ChatGPT and Chatbot
+                      interactions to improve customer experiences and drive
+                      business decisions
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image
+                      src={visualizationFacilitateIcon4}
+                      alt="Integration Services"
+                    />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Integration Services</h4>
+                    <p className="standard-para">
+                      We can provide integration services for ChatGPT and
+                      Chatbots, helping customers seamlessly integrate the
+                      technology into their existing systems and workflows
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image
+                      src={maintenanceAndSupport}
+                      alt="Maintenance and Support"
+                    />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Maintenance and Support</h4>
+                    <p className="standard-para">
+                      We can provide maintenance and support services for
+                      ChatGPT and Chatbots, ensuring that the technology remains
+                      up-to-date and functioning smoothly
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image
+                      src={TrainingandEducation}
+                      alt="Training and Education"
+                    />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Training and Education</h4>
+                    <p className="standard-para">
+                      We can provide training and education services to
+                      customers, helping them understand the capabilities of
+                      ChatGPT and Chatbots and how to best leverage the
+                      technology for their specific needs
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={AIIcon} alt="AI" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      By providing these facilities, an organization can
+                      showcase the potential of ChatGPT and Chatbots to clients
+                      and demonstrate their value as a strategic partner for
+                      digital transformation
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </section>
       {/* -----  // End of we facilate ----- */}
 
       {/* -----  // start problem ----- */}
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6}>
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Providing Customer Support l
-                  </span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={providingCust}
-                  alt="solution"
-                  className="img-fluid"
-                />
+                <h3> Real World Problem: Solution example</h3>
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Providing Customer Support
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
-                  Providing customer support for a large e-commerce website.
+                  The manual process of scheduling appointments was becoming a
+                  costly and time-consuming task.
                 </p>
               </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head">The Solution </h3>
                 <p className="sol-top-para">
-                  With a vast customer base, it becomes difficult to address all
-                  the queries and concerns of each customer in a timely manner.
-                  By implementing a chatbot powered by ChatGPT, customers can
-                  receive instant responses to their questions and concerns,
-                  reducing the need for human intervention and improving overall
-                  customer satisfaction. The chatbot can also learn from
-                  customer interactions and become smarter over time, providing
-                  more accurate and helpful responses.
+                  In order to streamline the process of scheduling appointments
+                  for various types, we developed a rule-based chatbot that
+                  operates on a fixed flow. This chatbot eliminates the need for
+                  manual intervention, thereby saving valuable time and reducing
+                  the cost associated with human resources. The chatbot prompts
+                  users with predefined options and collects relevant
+                  information, such as the user's name, email, or phone number,
+                  to contact the user further. This approach enables a more
+                  efficient and seamless scheduling process for both the users
+                  and the business.
                 </p>
               </div>
             </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Automating HR Processes
-                  </span>
-                </h3>
-              </div>
+            <Col md={6} className="mt-4">
               <div className="solution-img">
                 <Image
-                  src={automateHrP}
-                  alt="solution"
+                  src={providingCust}
+                  alt="Providing Customer Support"
                   className="img-fluid"
                 />
               </div>
             </Col>
-            <Col md={6}>
+
+            <Col md={6} className="pt-3 order-two f-des">
+              <div className="solution-img">
+                <Image
+                  src={automateHrP}
+                  alt="Automating HR Processes"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Automating HR Processes
+                </h3>
+              </div>
               <div className="sol-para-main">
-                <h3 className="sol-top-para-head"> Problem </h3>
+                <h3 className="sol-top-para-head">The Problem </h3>
                 <p className="sol-top-para">
-                  Automating HR processes in a company.
+                  Fine-tuning ChatGPT involves adapting a pre-trained language
+                  model to a specific task or domain through additional training
+                  on a relevant dataset.
                 </p>
               </div>
               <div className="sol-para-main">
-                <h3 className="sol-top-para-head"> Solution </h3>
+                <h3 className="sol-top-para-head">The Solution </h3>
 
                 <p className="sol-top-para">
-                  The chatbot can be designed to handle routine tasks such as
-                  employee onboarding, answering employee queries related to HR
-                  policies, and scheduling interviews. By automating such tasks,
-                  HR teams can free up their time and focus on more strategic
-                  tasks that require human intervention. Additionally, ChatGPT
-                  can be used to provide personalized career guidance and
-                  training recommendations to employees, based on their career
-                  goals and skill sets.
+                  The process of fine-tuning ChatGPT requires selecting a
+                  relevant dataset and defining the specific task to be
+                  performed. The pre-trained model can then be used as a
+                  starting point, with additional training on the dataset using
+                  techniques such as transfer learning and gradient descent.
+                  Evaluation of the model's performance is essential, with any
+                  necessary adjustments made for optimal results.
                 </p>
               </div>
             </Col>

@@ -72,6 +72,26 @@ function ServicesWeProvide(props) {
         </div>
         {/* end card */}
         {/* card */}
+        {/* card */}
+        <div
+          onClick={() => {
+            handleClick("/data-visualization");
+          }}
+          className={`services-card ${
+            showEnterpriceDevelopment ? "" : "d-none"
+          }`}
+        >
+          <div className="card-image">
+            <Image src={OurOfferingsImg6} alt="Enterprise solutions" />
+          </div>
+          <div className="card-content">
+            <h4 className="card-title">
+              {t("HOMEPAGE.our_services_sections.service_6_head")}
+            </h4>
+            <p>{t("HOMEPAGE.our_services_sections.service_6_desc")}</p>
+          </div>
+        </div>
+        {/* end card */}
         <div
           onClick={() => {
             handleClick("/text-analytics");
@@ -86,24 +106,6 @@ function ServicesWeProvide(props) {
               {t("HOMEPAGE.our_services_sections.service_3_head")}
             </h4>
             <p>{t("HOMEPAGE.our_services_sections.service_3_desc")}</p>
-          </div>
-        </div>
-        {/* end card */}
-        {/* card */}
-        <div
-          onClick={() => {
-            handleClick("/chatgpt_chatbot");
-          }}
-          className={`services-card ${showDaoDevelopment ? "" : "d-none"}`}
-        >
-          <div className="card-image">
-            <Image src={OurOfferingsImg4} alt="DAO development" />
-          </div>
-          <div className="card-content">
-            <h4 className="card-title">
-              {t("HOMEPAGE.our_services_sections.service_4_head")}
-            </h4>
-            <p>{t("HOMEPAGE.our_services_sections.service_4_desc")}</p>
           </div>
         </div>
         {/* end card */}
@@ -130,20 +132,18 @@ function ServicesWeProvide(props) {
         {/* card */}
         <div
           onClick={() => {
-            handleClick("/data-visualization");
+            handleClick("/chatgpt_chatbot");
           }}
-          className={`services-card ${
-            showEnterpriceDevelopment ? "" : "d-none"
-          }`}
+          className={`services-card ${showDaoDevelopment ? "" : "d-none"}`}
         >
           <div className="card-image">
-            <Image src={OurOfferingsImg6} alt="Enterprise solutions" />
+            <Image src={OurOfferingsImg4} alt="DAO development" />
           </div>
           <div className="card-content">
             <h4 className="card-title">
-              {t("HOMEPAGE.our_services_sections.service_6_head")}
+              {t("HOMEPAGE.our_services_sections.service_4_head")}
             </h4>
-            <p>{t("HOMEPAGE.our_services_sections.service_6_desc")}</p>
+            <p>{t("HOMEPAGE.our_services_sections.service_4_desc")}</p>
           </div>
         </div>
         {/* end card */}
