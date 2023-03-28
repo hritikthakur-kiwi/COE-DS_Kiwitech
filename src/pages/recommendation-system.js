@@ -8,6 +8,7 @@ import {
   increasedBussiness,
   personalisedRec,
   reduCus,
+  cusBehavior,
   targetCust,
   recomFacilitateIcon1,
   recomFacilitateIcon2,
@@ -21,6 +22,7 @@ import {
   recomFacilitateIcon10,
   PersonalizedRecommendations,
   personalizedRecommEnter,
+  EnhancedCustomer,
 } from "@/assets/images/images";
 import Footer from "@/components/Footer";
 import Image from "next/image";
@@ -58,11 +60,11 @@ function CryptoCurrencyDevelopment(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner recommendation-banner">
         <div className="container">
           <Row>
             <Col md={12}>
-              <div className="text-center">
+              <div className="text-center section-banner">
                 <h3 className="gradient-heading">
                   {t("CRYPTO_CURRENCY_DEV.head_section_title")}
                 </h3>
@@ -108,7 +110,7 @@ function CryptoCurrencyDevelopment(props) {
       <div className="nft-wrapper">
         <div className="ngt-content">
           <Carousel
-            autoPlay={false}
+            autoPlay={true}
             showDots={true}
             swipeable={true}
             draggable={true}
@@ -154,7 +156,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={cosnumerBehavior} alt="user" />
+                  <Image src={cusBehavior} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -202,7 +204,7 @@ function CryptoCurrencyDevelopment(props) {
 
       {/* ---- Start We facilitate ----- */}
       <section className="standard-main">
-        <div className="container-fluid side-gap">
+        <div className="container">
           <Row>
             <Col md={12}>
               <div className="network-top-head">
@@ -357,7 +359,7 @@ function CryptoCurrencyDevelopment(props) {
               </div>
             </Col>
             <Col md={6} className="mt-4">
-              <div className="solution-img p-0">
+              <div className="solution-img">
                 <Image
                   src={PersonalizedRecommendations}
                   alt="Personalized Recommendations"
@@ -366,7 +368,7 @@ function CryptoCurrencyDevelopment(props) {
               </div>
             </Col>
             <Col md={6} className="mt-5 pt-3 order-two f-des">
-              <div className="solution-img p-0">
+              <div className="solution-img">
                 <Image
                   src={personalizedRecommEnter}
                   alt="solution"

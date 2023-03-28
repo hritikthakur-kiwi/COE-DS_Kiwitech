@@ -1,10 +1,30 @@
 import {
   accurateDescision,
-  analyzePatient, easyInterpretion, iconGame,
+  analyzePatient,
+  easyInterpretion,
+  iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, leveragingData, monitorKey,
-  optimizingBussiness, storeComparision, understandingConsumer
+  iconTwitter,
+  leveragingData,
+  monitorKey,
+  optimizingBussiness,
+  storeComparision,
+  understandingConsumer,
+  visualizationFacilitateIcon1,
+  visualizationFacilitateIcon2,
+  visualizationFacilitateIcon3,
+  visualizationFacilitateIcon4,
+  visualizationFacilitateIcon5,
+  visualizationFacilitateIcon6,
+  dataComparePerformance,
+  dataAnalyzePatientOutcomes,
+  dataVisuSliderImg1,
+  dataVisuSliderImg2,
+  dataVisuSliderImg3,
+  dataVisuSliderImg4,
+  dataVisuSliderImg5,
+  dataVisuSliderImg6,
 } from "@/assets/images/images";
 import Footer from "@/components/Footer";
 import Image from "next/image";
@@ -42,16 +62,19 @@ function CryptoCurrencyDevelopment(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner dataVisualization-banner">
         <div className="container">
           <Row>
             <Col md={12}>
-              <div className="text-center">
+              <div className="text-center section-banner">
                 <h3 className="gradient-heading">
                   {t("DEFI_SERVICES.head_section_title")}
                 </h3>
-                <h5 className="section-sub-heading text-white">
+                <h5 className="section-sub-heading text-white m-0">
                   {t("DEFI_SERVICES.head_section_subhead")}
+                </h5>
+                <h5 className="section-sub-heading text-white">
+                  {t("DEFI_SERVICES.head_section_subhead_2")}
                 </h5>
                 <p className="nft-banner-para">
                   {t("DEFI_SERVICES.head_section_para")}
@@ -90,13 +113,13 @@ function CryptoCurrencyDevelopment(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("DEFI_SERVICES.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
             autoPlay={true}
+            showDots={true}
             swipeable={true}
-            draggable={false}
-            arrows={true}
+            draggable={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
@@ -108,10 +131,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={easyInterpretion} alt="user" />
+                  <Image src={dataVisuSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_1")}
                   </h4>
                   <p className="nft-text-para">
@@ -123,10 +146,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={accurateDescision} alt="user" />
+                  <Image src={dataVisuSliderImg2} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_2")}
                   </h4>
                   <p className="nft-text-para">
@@ -138,10 +161,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={optimizingBussiness} alt="user" />
+                  <Image src={dataVisuSliderImg3} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_3")}
                   </h4>
                   <p className="nft-text-para">
@@ -153,10 +176,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={monitorKey} alt="user" />
+                  <Image src={dataVisuSliderImg4} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_4")}
                   </h4>
                   <p className="nft-text-para">
@@ -168,10 +191,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={understandingConsumer} alt="user" />
+                  <Image src={dataVisuSliderImg5} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_5")}
                   </h4>
                   <p className="nft-text-para">
@@ -183,10 +206,10 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={leveragingData} alt="user" />
+                  <Image src={dataVisuSliderImg6} alt="user" />
                 </div>
                 <div className="nft-review">
-                <h4 className="nft-review-head">
+                  <h4 className="nft-review-head">
                     {t("DEFI_SERVICES.carousel_section_head_6")}
                   </h4>
                   <p className="nft-text-para">
@@ -201,7 +224,7 @@ function CryptoCurrencyDevelopment(props) {
 
       {/* ---- Start We facilitate ----- */}
       <section className="standard-main">
-        <div className="container-fluid side-gap">
+        <div className="container">
           <Row>
             <Col md={12}>
               <div className="network-top-head">
@@ -213,35 +236,72 @@ function CryptoCurrencyDevelopment(props) {
                 </h5>
               </div>
               <div className="standard-content-main">
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_1")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon1} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">
+                      Customized Data Visualization
+                    </h4>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_1")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_2")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon2} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Interactive Dashboards</h4>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_2")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item3">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_3")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon3} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Automated Reporting</h4>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_3")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item4">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_4")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon4} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Data Integration</h4>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_4")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_5")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon5} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Analytics Consulting</h4>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_5")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("DEFI_SERVICES.nft_standard_text_6")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={visualizationFacilitateIcon6} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("DEFI_SERVICES.nft_standard_text_6")}
+                    </p>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -254,22 +314,15 @@ function CryptoCurrencyDevelopment(props) {
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6}>
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Compare Performances</span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={storeComparision}
-                  alt="solution"
-                  className="img-fluid"
-                />
+                <h3> Real World Problem: Solution example</h3>
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">Compare Performances</h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -294,25 +347,31 @@ function CryptoCurrencyDevelopment(props) {
                 </p>
               </div>
             </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Analyze Patient Outcomes
-                  </span>
-                </h3>
-              </div>
+            <Col md={6} className="mt-4">
               <div className="solution-img">
                 <Image
-                  src={analyzePatient}
+                  src={dataComparePerformance}
                   alt="solution"
                   className="img-fluid"
                 />
               </div>
             </Col>
-            <Col md={6}>
+
+            <Col md={6} className="mt-5 pt-3 order-two f-des">
+              <div className="solution-img">
+                <Image
+                  src={dataAnalyzePatientOutcomes}
+                  alt="solution"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Analyze Patient Outcomes
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -340,10 +399,7 @@ function CryptoCurrencyDevelopment(props) {
           </Row>
         </div>
       </section>
-      {/* ---- // End of networks ----- */}
-      {/* ---- Start Standards ----- */}
 
-      {/* -----  // End of standards ----- */}
       {/* Start FAQ  */}
       <section className="faqs-main">
         <div className="container">

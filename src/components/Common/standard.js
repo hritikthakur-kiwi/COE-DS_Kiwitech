@@ -18,7 +18,7 @@ function Standard(props) {
   const { t } = useTranslation();
   return (
     <section className="standard-main">
-      <div className="container-fluid side-gap">
+      <div className="container">
         <Row>
           <Col md={12}>
             <div className="network-top-head">

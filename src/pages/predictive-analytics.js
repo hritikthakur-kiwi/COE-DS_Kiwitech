@@ -52,16 +52,19 @@ function NFTDevelopment(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner predictive-banner">
         <div className="container">
           <Row>
             <Col md={12}>
-              <div className="text-center">
+              <div className="text-center section-banner">
                 <h3 className="gradient-heading">
                   {t("NFT_DEVELOPMENT.head_section_title")}
                 </h3>
-                <h5 className="section-sub-heading text-white">
+                <h5 className="section-sub-heading text-white m-0">
                   {t("NFT_DEVELOPMENT.head_section_subhead")}
+                </h5>
+                <h5 className="section-sub-heading text-white">
+                  {t("NFT_DEVELOPMENT.head_section_subhead_2")}
                 </h5>
                 <p className="nft-banner-para">
                   {t("NFT_DEVELOPMENT.head_section_para")}
@@ -100,7 +103,6 @@ function NFTDevelopment(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("NFT_DEVELOPMENT.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
             autoPlay={true}
@@ -209,18 +211,11 @@ function NFTDevelopment(props) {
               </div>
             </Col>
             <Col md={6} className="mt-4">
-              <div className="sol-top-head">
-                <h3 className="gradient-heading">Predicting Customer Churn</h3>
+              <div className="sol-top-head ">
+                <h3 className="gradient-heading mb-4">
+                  Predicting Customer Churn
+                </h3>
               </div>
-              <div className="solution-img">
-                <Image
-                  src={predictingChrun}
-                  alt="solution"
-                  className="img-fluid"
-                />
-              </div>
-            </Col>
-            <Col md={6} className="mt-4">
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -241,8 +236,29 @@ function NFTDevelopment(props) {
                 </p>
               </div>
             </Col>
+            <Col md={6} className="mt-4">
+              <div className="solution-img">
+                <Image
+                  src={predictingChrun}
+                  alt="solution"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
 
             <Col md={6} className="mt-5 pt-3 order-two f-des">
+              <div className="solution-img">
+                <Image
+                  src={fraudDetection}
+                  alt="solution"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">Fraud Detection</h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -262,18 +278,6 @@ function NFTDevelopment(props) {
                   patterns in real-time transactions and flag them for further
                   investigation.
                 </p>
-              </div>
-            </Col>
-            <Col md={6} className="mt-5 pt-3 order-one">
-              <div className="sol-top-head">
-                <h3 className="gradient-heading">Fraud Detection</h3>
-              </div>
-              <div className="solution-img pt-0">
-                <Image
-                  src={fraudDetection}
-                  alt="solution"
-                  className="img-fluid"
-                />
               </div>
             </Col>
           </Row>

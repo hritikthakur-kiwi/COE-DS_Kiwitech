@@ -1,7 +1,6 @@
 import {
   detectingFraud,
   enhanceMarketing,
-  fraudDetection,
   gainInsights,
   iconGame,
   iconLinkdin,
@@ -10,6 +9,18 @@ import {
   IdentifyTrends,
   improveOperational,
   sentimentAnalysis,
+  textAnalyticsFacilitateIcon1,
+  textAnalyticsFacilitateIcon2,
+  textAnalyticsFacilitateIcon3,
+  textAnalyticsFacilitateIcon4,
+  textAnalyticsFacilitateIcon5,
+  textAnalyticsFacilitateIcon6,
+  detectAndPrevent,
+  textAnanlyticSliderImg1,
+  textAnanlyticSliderImg2,
+  textAnanlyticSliderImg3,
+  textAnanlyticSliderImg4,
+  textAnanlyticSliderImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -51,16 +62,19 @@ function textAnalytics(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner textAnalytics-banner">
         <div className="container">
           <Row>
             <Col md={12}>
-              <div className="text-center">
+              <div className="text-center section-banner">
                 <h3 className="gradient-heading">
                   {t("DAO_DEVELOPMENT.head_section_title")}
                 </h3>
-                <h5 className="section-sub-heading text-white">
+                <h5 className="section-sub-heading text-white m-0">
                   {t("DAO_DEVELOPMENT.head_section_subhead")}
+                </h5>
+                <h5 className="section-sub-heading text-white">
+                  {t("DAO_DEVELOPMENT.head_section_subhead_2")}
                 </h5>
                 <p className="nft-banner-para">
                   {t("DAO_DEVELOPMENT.head_section_para")}
@@ -99,17 +113,17 @@ function textAnalytics(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("DAO_DEVELOPMENT.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
             autoPlay={true}
+            showDots={true}
             swipeable={true}
-            draggable={false}
-            arrows={true}
+            draggable={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
-            autoPlaySpeed={2000}
+            autoPlaySpeed={5000}
             keyBoardControl={true}
             transitionDuration={300}
             partialVisible={true}
@@ -117,7 +131,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={gainInsights} alt="user" />
+                  <Image src={textAnanlyticSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -132,7 +146,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={enhanceMarketing} alt="user" />
+                  <Image src={textAnanlyticSliderImg2} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -147,7 +161,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={improveOperational} alt="user" />
+                  <Image src={textAnanlyticSliderImg3} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -162,7 +176,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={IdentifyTrends} alt="user" />
+                  <Image src={textAnanlyticSliderImg4} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -177,7 +191,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={detectingFraud} alt="user" />
+                  <Image src={textAnanlyticSliderImg5} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -195,7 +209,7 @@ function textAnalytics(props) {
 
       {/* ---- we facilate ----- */}
       <section className="standard-main">
-        <div className="container-fluid side-gap">
+        <div className="container">
           <Row>
             <Col md={12}>
               <div className="network-top-head">
@@ -207,35 +221,74 @@ function textAnalytics(props) {
                 </h5>
               </div>
               <div className="standard-content-main">
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_1")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon1} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">
+                      Data analysis and insights
+                    </h4>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_1")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_2")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon2} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Customized solutions</h4>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_2")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item3">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_3")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon3} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Scalable infrastructure</h4>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_3")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item4">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_4")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon4} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">
+                      Integration with existing systems
+                    </h4>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_4")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item1">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_5")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon5} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Training and support</h4>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_5")}
+                    </p>
+                  </div>
                 </div>
-                <div className="standard-item std-item2">
-                  <p className="standard-para">
-                    {t("DAO_DEVELOPMENT.nft_standard_text_6")}
-                  </p>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={textAnalyticsFacilitateIcon6} alt="" />
+                  </div>
+                  <div>
+                    <p className="standard-para">
+                      {t("DAO_DEVELOPMENT.nft_standard_text_6")}
+                    </p>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -248,22 +301,15 @@ function textAnalytics(props) {
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6}>
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Sentiment Analysis</span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={sentimentAnalysis}
-                  alt="solution"
-                  className="img-fluid"
-                />
+                <h3> Real World Problem: Solution example</h3>
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">Sentiment Analysis</h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -284,25 +330,30 @@ function textAnalytics(props) {
                 </p>
               </div>
             </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Detect and Prevent Fraud Transaction Data
-                  </span>
-                </h3>
-              </div>
+            <Col md={6} className="mt-4">
               <div className="solution-img">
                 <Image
-                  src={fraudDetection}
+                  src={sentimentAnalysis}
                   alt="solution"
                   className="img-fluid"
                 />
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-5 pt-3 order-two f-des">
+              <div className="solution-img">
+                <Image
+                  src={detectAndPrevent}
+                  alt="solution"
+                  className="img-fluid"
+                />
+              </div>
+            </Col>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Detect and Prevent Fraud Transaction Data
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">

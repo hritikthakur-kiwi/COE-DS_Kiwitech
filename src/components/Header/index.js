@@ -68,14 +68,13 @@ export default function Header() {
                   >
                     {t("HEADERS.Services_Link_text")}
                   </Link>
-                  <ul
-                    className="dropdown-menu"
-                    // aria-labelledby="navbarDropdown"
-                  >
+                  <ul className="dropdown-menu">
                     <li>
                       <Link
                         className={`dropdown-item ${
-                          router.pathname === "/predictive-analytics" ? "active" : ""
+                          router.pathname === "/predictive-analytics"
+                            ? "active"
+                            : ""
                         }`}
                         href="/predictive-analytics"
                       >
@@ -99,7 +98,9 @@ export default function Header() {
                     <li>
                       <Link
                         className={`dropdown-item ${
-                          router.pathname === "/data-visualization" ? "active" : ""
+                          router.pathname === "/data-visualization"
+                            ? "active"
+                            : ""
                         }`}
                         href="/data-visualization"
                       >

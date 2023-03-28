@@ -1,9 +1,25 @@
 import {
-  betterDecision, competitveAdv, enhanceSecurity, iconGame,
+  betterDecision,
+  competitveAdv,
+  enhanceSecurity,
+  iconGame,
   iconLinkdin,
   iconTelegram,
-  iconTwitter, improveCust,
-  increasedEfficiency, securityPersonal, trafficPattern
+  iconTwitter,
+  improveCust,
+  increasedEfficiency,
+  securityPersonal,
+  trafficPattern,
+  imageFacilitateIcon1,
+  imageFacilitateIcon2,
+  imageFacilitateIcon3,
+  imageFacilitateIcon4,
+  imageFacilitateIcon5,
+  imageVideoSliderImg1,
+  imageVideoSliderImg2,
+  imageVideoSliderImg3,
+  imageVideoSliderImg4,
+  imageVideoSliderImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -46,7 +62,7 @@ function NFTDevelopment(props) {
   return (
     <div>
       <Header />
-      <section className="nft-development-banner">
+      <section className="nft-development-banner imageAndVideo-banner">
         <div className="container">
           <Row>
             <Col md={12}>
@@ -94,13 +110,13 @@ function NFTDevelopment(props) {
       </section>
       {/* ---- NFT  ---- */}
       <div className="nft-wrapper">
-        {/* <h3 className="section-sub-heading text-white">{t("ENTERPRICE_SOLUTIONS.head_section_title")}</h3> */}
         <div className="ngt-content">
           <Carousel
-            autoPlay={false}
+            autoPlay={true}
+            showDots={true}
             swipeable={true}
             draggable={true}
-            arrows={true}
+            arrows={false}
             responsive={responsive}
             ssr={true}
             infinite={true}
@@ -112,7 +128,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={improveCust} alt="user" />
+                  <Image src={imageVideoSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -127,7 +143,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={increasedEfficiency} alt="user" />
+                  <Image src={imageVideoSliderImg2} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -142,7 +158,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={enhanceSecurity} alt="user" />
+                  <Image src={imageVideoSliderImg3} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -157,7 +173,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={betterDecision} alt="user" />
+                  <Image src={imageVideoSliderImg4} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -172,7 +188,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={competitveAdv} alt="user" />
+                  <Image src={imageVideoSliderImg5} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -189,29 +205,109 @@ function NFTDevelopment(props) {
       </div>
 
       {/* ---- we facilate ----- */}
-      <Standard />
+      <section className="standard-main">
+        <div className="container">
+          <Row>
+            <Col md={12}>
+              <div className="network-top-head">
+                <h3 className="section-heading extra-small-gradient">
+                  {t("DAO_DEVELOPMENT.nft_standards_sec_head")}
+                </h3>
+                <h5 className="banner-para">
+                  Our effective services for Text Analytics
+                </h5>
+              </div>
+              <div className="standard-content-main">
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon1} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Customized solutions</h4>
+                    <p className="standard-para">
+                       A team of experts can work with customers to develop
+                      customized image and video analytics solutions that meet
+                      their specific needs and goals
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon2} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Cutting-edge technology</h4>
+                    <p className="standard-para">
+                      Customers can access advanced features such as machine
+                      learning, computer vision, and deep learning algorithms
+                      through the latest image and video analytics technology.
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon3} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">
+                      Fast and accurate analysis
+                    </h4>
+                    <p className="standard-para">
+                      Image and video analytics software can quickly analyze
+                      vast amounts of visual data, providing clients with
+                      real-time insights and actionable information.
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon4} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Security and privacy</h4>
+                    <p className="standard-para">
+                      A reputable image and video analytics provider will have
+                      robust security measures in place to protect sensitive
+                      client data and ensure compliance with regulations such as
+                      GDPR and CCPA
+                    </p>
+                  </div>
+                </div>
+                <div className="standard-item facility-item">
+                  <div className="facility-icon">
+                    <Image src={imageFacilitateIcon5} alt="" />
+                  </div>
+                  <div>
+                    <h4 class="standard-item-head">Scalability</h4>
+                    <p className="standard-para">
+                      As businesses grow and their visual data needs evolve, an
+                      image and video analytics provider can scale their
+                      solutions to meet changing demands and accommodate new use
+                      cases
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </section>
       {/* -----  // End of we facilate ----- */}
 
       {/* -----  // start problem ----- */}
       <section className="solution-provide-wrapper">
         <div className="container">
           <Row>
-            <Col md={6}>
+            <Col md={12} className="mt-4">
               <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">Security Personnel</span>
-                </h3>
-              </div>
-              <div className="solution-img">
-                <Image
-                  src={securityPersonal}
-                  alt="solution"
-                  className="img-fluid"
-                />
+                <h3> Real World Problem: Solution example</h3>
               </div>
             </Col>
-            <Col md={6}>
+
+            <Col md={6} className="mt-4">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">Security Personnel</h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> The Problem </h3>
                 <p className="sol-top-para">
@@ -235,16 +331,17 @@ function NFTDevelopment(props) {
                 </p>
               </div>
             </Col>
-
-            <Col md={6}>
-              <div className="sol-top-head">
-                <h3>
-                  Real World Problem - Solution example{" "}
-                  <span className="gradient-heading">
-                    Analyzing Traffic Patterns and Behaviors
-                  </span>
-                </h3>
+            <Col md={6} className="mt-4">
+              <div className="solution-img">
+                <Image
+                  src={securityPersonal}
+                  alt="solution"
+                  className="img-fluid"
+                />
               </div>
+            </Col>
+
+            <Col md={6} className="pt-3 order-two f-des">
               <div className="solution-img">
                 <Image
                   src={trafficPattern}
@@ -253,7 +350,12 @@ function NFTDevelopment(props) {
                 />
               </div>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mt-5 pt-3 order-one f-des">
+              <div className="sol-top-head">
+                <h3 className="gradient-heading mb-4">
+                  Analyzing Traffic Patterns and Behaviors
+                </h3>
+              </div>
               <div className="sol-para-main">
                 <h3 className="sol-top-para-head"> Problem </h3>
                 <p className="sol-top-para">
