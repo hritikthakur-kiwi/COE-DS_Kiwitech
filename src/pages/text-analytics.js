@@ -16,6 +16,11 @@ import {
   textAnalyticsFacilitateIcon5,
   textAnalyticsFacilitateIcon6,
   detectAndPrevent,
+  textAnanlyticSliderImg1,
+  textAnanlyticSliderImg2,
+  textAnanlyticSliderImg3,
+  textAnanlyticSliderImg4,
+  textAnanlyticSliderImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -126,7 +131,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={gainInsights} alt="user" />
+                  <Image src={textAnanlyticSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -141,7 +146,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={enhanceMarketing} alt="user" />
+                  <Image src={textAnanlyticSliderImg2} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -156,7 +161,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={improveOperational} alt="user" />
+                  <Image src={textAnanlyticSliderImg3} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -171,7 +176,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={IdentifyTrends} alt="user" />
+                  <Image src={textAnanlyticSliderImg4} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -186,7 +191,7 @@ function textAnalytics(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={detectingFraud} alt="user" />
+                  <Image src={textAnanlyticSliderImg5} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">

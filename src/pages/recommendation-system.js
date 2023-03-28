@@ -8,6 +8,7 @@ import {
   increasedBussiness,
   personalisedRec,
   reduCus,
+  cusBehavior,
   targetCust,
   recomFacilitateIcon1,
   recomFacilitateIcon2,
@@ -155,7 +156,7 @@ function CryptoCurrencyDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={EnhancedCustomer} alt="user" />
+                  <Image src={cusBehavior} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">

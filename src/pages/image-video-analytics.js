@@ -15,6 +15,11 @@ import {
   imageFacilitateIcon3,
   imageFacilitateIcon4,
   imageFacilitateIcon5,
+  imageVideoSliderImg1,
+  imageVideoSliderImg2,
+  imageVideoSliderImg3,
+  imageVideoSliderImg4,
+  imageVideoSliderImg5,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -123,7 +128,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={improveCust} alt="user" />
+                  <Image src={imageVideoSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -138,7 +143,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={increasedEfficiency} alt="user" />
+                  <Image src={imageVideoSliderImg2} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -153,7 +158,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={enhanceSecurity} alt="user" />
+                  <Image src={imageVideoSliderImg3} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -168,7 +173,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={betterDecision} alt="user" />
+                  <Image src={imageVideoSliderImg4} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -183,7 +188,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={competitveAdv} alt="user" />
+                  <Image src={imageVideoSliderImg5} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">

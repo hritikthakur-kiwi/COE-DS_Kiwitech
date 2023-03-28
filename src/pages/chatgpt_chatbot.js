@@ -10,12 +10,14 @@ import {
   personalization,
   providingCust,
   scalability,
+  imageVideoSliderImg1,
   imageFacilitateIcon1,
   imageFacilitateIcon2,
   visualizationFacilitateIcon4,
   TrainingandEducation,
   maintenanceAndSupport,
   AIIcon,
+  CompetitiveAdvantage,
 } from "@/assets/images/images";
 import Image from "next/image";
 import { Col, Row } from "react-bootstrap";
@@ -125,7 +127,7 @@ function NFTDevelopment(props) {
             <div className="nft-inner">
               <div className="nft-inner-content">
                 <div className="nft-user">
-                  <Image src={improveCustumer} alt="user" />
+                  <Image src={imageVideoSliderImg1} alt="user" />
                 </div>
                 <div className="nft-review">
                   <h4 className="nft-review-head">
@@ -193,6 +195,25 @@ function NFTDevelopment(props) {
                   </h4>
                   <p className="nft-text-para">
                     {t("CHATGPT_CHATBOT.carousel_section_text_5")}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="nft-inner">
+              <div className="nft-inner-content">
+                <div className="nft-user">
+                  <Image src={CompetitiveAdvantage} alt="user" />
+                </div>
+                <div className="nft-review">
+                  <h4 className="nft-review-head">Competitive Advantage</h4>
+                  <p className="nft-text-para">
+                    By automating routine tasks and providing personalized,
+                    real-time support, businesses can differentiate themselves
+                    from competitors and improve customer satisfaction and
+                    loyalty. Additionally, their ability to learn and adapt to
+                    customer needs and provide data-driven insights can help
+                    businesses make informed decisions and stay ahead of the
+                    competition
                   </p>
                 </div>
               </div>
