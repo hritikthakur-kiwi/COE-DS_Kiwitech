@@ -529,8 +529,9 @@ body {
 .nft-development-banner.chatGpt-banner {
   background-image: url(../assets/images/chatGPTbanner.png);
 }
+
 .small-text {
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 300;
   line-height: 27px;
