@@ -279,7 +279,7 @@
 }
 /* project overview section */
 .project-overview {
-  background: rgba(167, 131, 255, 0.2);
+  /* background: rgba(167, 131, 255, 0.2); */
   padding: 65px 0px 60px 0px;
 }
 .btn {

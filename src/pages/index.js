@@ -53,13 +53,14 @@ export default function Home() {
       <Header />
       {/* Banner */}
       <HomeBanner />
+      <ServicesWeProvide />
       {/* ----- excellence ------ */}
-      <div className="excellence-wrapper">
+      {/* <div className="excellence-wrapper">
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
               <div className="excellence-left-content">
-                {/* <h2 className="we-are-txt">We are</h2> */}
+                 
                 <h2 className="gradient-heading">
                   {t("HOMEPAGE.Our_WEB3_PROWESS_HEAD.heading")}
                 </h2>
@@ -151,11 +152,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ------ End of Excellence ------ */}
 
       {/* ----- What We Do ------ */}
-      <div className="what-we-do-wrapper">
+      {/* <div className="what-we-do-wrapper">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -227,8 +228,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ----- End of What We Do ----- */}
+
+      <TechStacks />
 
       {/* ---- Testimonials ---- */}
       <div className="testimonials-wrapper">
@@ -325,8 +328,6 @@ export default function Home() {
         </div>
       </div>
       {/* ---- End of Testimonials ---- */}
-      <TechStacks />
-      <ServicesWeProvide />
       <QuickProjectStart />
       <AboutForm />
       <Footer />

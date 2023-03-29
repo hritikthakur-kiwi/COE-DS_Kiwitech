@@ -29,12 +29,13 @@ function ServicesWeProvide(props) {
   return (
     <section className="services-section">
       <div className="container">
-        <h3 className="section-heading extra-small-gradient">
-          {t("HOMEPAGE.our_services_sections.heading")}
-        </h3>
-        <h5 className="section-sub-heading">
+        <h3 className="section-heading extra-small-gradient pb-5">
+          {/* {t("HOMEPAGE.our_services_sections.heading")} */}
           {t("HOMEPAGE.our_services_sections.SEC_SUB_heading")}
-        </h5>
+        </h3>
+        {/* <h5 className="section-sub-heading">
+          {t("HOMEPAGE.our_services_sections.SEC_SUB_heading")}
+        </h5> */}
         {/* card */}
         <div
           onClick={() => {
