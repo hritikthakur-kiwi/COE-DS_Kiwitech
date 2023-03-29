@@ -46,110 +46,101 @@ function TechStacks() {
         <h3 className="section-heading extra-small-gradient">
           {t("Tech_Stack_component_TITLE")}
         </h3>
-        <h5 className="section-sub-heading">
-          {/* {t("Tech_Stack_component_SUB_TITLE")} */}
-        </h5>
         <div className="logo-section">
           <div className="logo-container">
-            <Image src={SciPy} alt="SciPy" />
+            <Image src={pandasLogo} alt="SciPy" />
           </div>
           <div className="logo-container">
-            <Image src={ffmpegLogo} alt="FFmpegLogo" />
+            <Image src={numPy} alt="FFmpegLogo" />
           </div>
           <div className="logo-container">
-            <Image src={pytorch} alt="Pytorch" />
+            <Image src={seabornLogo} alt="Pytorch" />
           </div>
           <div className="logo-container">
-            <Image src={yolo} alt="Yolo" />
+            <Image src={matplotlib} alt="Yolo" />
           </div>
           <div className="logo-container">
-            <Image src={awsLogo} alt="aws" />
+            <Image src={PlotlyLogo} alt="aws" />
           </div>
           <div className="logo-container">
-            <Image src={autogluon} alt="AutoGluon" />
+            <Image src={scikitLogo} alt="AutoGluon" />
           </div>
           <div className="logo-container">
-            <Image src={fastApi} alt="fastApi" />
+            <Image src={SciPy} alt="fastApi" />
           </div>
           <div className="logo-container">
-            <Image src={numPy} alt="NumPy" />
+            <Image src={autogluon} alt="NumPy" />
           </div>
           <div className="logo-container">
-            <Image src={rasaLogo} alt="RASA" />
+            <Image src={tensorFlow} alt="RASA" />
           </div>
           <div className="logo-container">
-            <Image src={googleCloud} alt="Google Cloud" />
+            <Image src={kerasLogo} alt="Google Cloud" />
           </div>
           <div className="logo-container">
-            <Image src={huggingfaceLogo} alt="Hugging Face" />
+            <Image src={pytorch} alt="Hugging Face" />
           </div>
 
           <div className="logo-container">
-            <Image src={tensorFlow} alt="tensorFlow" />
+            <Image src={OpenCvLogo} alt="tensorFlow" />
           </div>
           <div className="logo-container">
-            <Image src={PlotlyLogo} alt="Plotly" />
+            <Image src={ffmpegLogo} alt="Plotly" />
           </div>
           <div className="logo-container">
-            <Image src={SpaCyLogo} alt="SpaCy" />
+            <Image src={pillowLogo} alt="SpaCy" />
           </div>
           <div className="logo-container">
-            <Image src={dockerLogo} alt="Docker" />
+            <Image src={yolo} alt="Docker" />
           </div>
           <div className="logo-container">
-            <Image src={textBlob} alt="TextBlob" />
+            <Image src={huggingfaceLogo} alt="TextBlob" />
+          </div>
+          {/* <div className="logo-container">
+            <Image src={transformerLogo} alt="Transformer" />
+          </div> */}
+          <div className="logo-container">
+            <Image src={SpaCyLogo} alt="seaborn" />
+          </div>
+          {/* <div className="logo-container">
+            <Image src={nltk} alt="NLTK" />
+          </div> */}
+          <div className="logo-container">
+            <Image src={pyLogo} alt="pandas" />
           </div>
           <div className="logo-container">
-            <Image src={seabornLogo} alt="seaborn" />
+            <Image src={flaskLogo} alt="django" />
           </div>
           <div className="logo-container">
-            <Image src={pandasLogo} alt="pandas" />
+            <Image src={django} alt="streamlit" />
           </div>
           <div className="logo-container">
-            <Image src={django} alt="django" />
+            <Image src={fastApi} alt="OpenCV" />
           </div>
           <div className="logo-container">
-            <Image src={streamlitLogo} alt="streamlit" />
+            <Image src={streamlitLogo} alt="matplotLipb" />
+          </div>
+          {/* <div className="logo-container">
+            <Image src={postmanLogo} alt="Postman" />
+          </div> */}
+          <div className="logo-container">
+            <Image src={rasaLogo} alt="CoreNLP" />
           </div>
           <div className="logo-container">
-            <Image src={OpenCvLogo} alt="OpenCV" />
+            <Image src={awsLogo} alt="scikit learn" />
+          </div>
+          {/* <div className="logo-container">
+            <Image src={azure} alt="azure" />
+          </div> */}
+          <div className="logo-container">
+            <Image src={googleCloud} alt="MedSpaCy" />
           </div>
           <div className="logo-container">
-            <Image src={matplotlib} alt="matplotLipb" />
+            <Image src={dockerLogo} alt="scikitImage" />
           </div>
-          <div className="logo-container">
-            <Image src={coreNlp} alt="CoreNLP" />
-          </div>
-          <div className="logo-container">
-            <Image src={scikitLogo} alt="scikit learn" />
-          </div>
-          <div className="logo-container">
-            <Image src={MedSpaCy} alt="MedSpaCy" />
-          </div>
-          <div className="logo-container">
-            <Image src={scikitImg} alt="scikitImage" />
-          </div>
-          <div className="logo-container">
-            <Image src={gensimLogo} alt="GENSIM" />
-          </div>
-          <div className="logo-container">
-            <Image src={amazonComprehend} alt="Amazon Comprehend" />
-          </div>
-          <div className="logo-container">
-            <Image src={flaskLogo} alt="Flask" />
-          </div>
-          <div className="logo-container">
-            <Image src={pyLogo} alt="Python Pytessaract" />
-          </div>
-          <div className="logo-container">
-            <Image src={pillowLogo} alt="pillow" />
-          </div>
-          <div className="logo-container">
-            <Image src={kerasLogo} alt="keras" />
-          </div>
-          <div className="logo-container">
-            <Image src={fastText} alt="fastText" />
-          </div>
+          {/* <div className="logo-container">
+            <Image src={postman} alt="postMan" />
+          </div> */}
         </div>
       </div>
     </section>

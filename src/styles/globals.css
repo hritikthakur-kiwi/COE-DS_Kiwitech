@@ -434,7 +434,9 @@ body {
 .testimonials-inner {
   margin: 0px 30px;
   height: 100%;
+  position: relative;
 }
+
 .testimonials-content .testimonials-inner-content {
   background: linear-gradient(266.14deg, #6f3af1 0.39%, #fb6369 100%);
   border-radius: 20px;
@@ -563,10 +565,10 @@ body {
 .nft-wrapper {
   background: linear-gradient(89.93deg, #6a30b3 0.05%, #320679 99.93%);
   border: 1px solid #6f3af1;
-  padding: 45px 0px 30px 45px;
+  padding: 44px 0px 7px 45px;
 }
 .ngt-content .react-multi-carousel-list {
-  padding-bottom: 43px;
+  padding-bottom: 24px;
 }
 .ngt-content .react-multi-carousel-dot button {
   background: #3d107d;
